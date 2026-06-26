@@ -1,0 +1,723 @@
+[
+  {
+    "_id": "aa4c64afa22006903cf8f6c6",
+    "patient_id": "26eaac0a8a2caf272d920b0f",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "Tension Headache",
+            "is_check": "yes",
+            "since": "2019",
+            "frequency": 12,
+            "per": "week"
+          },
+          {
+            "name": "Tension Headache",
+            "is_check": "no",
+            "since": "2011",
+            "frequency": 10,
+            "per": "week"
+          }
+        ],
+        "createdAt": "2025-09-26T05:02:54.439998"
+      }
+    ],
+    "createdAt": "2025-09-26T05:02:54.439998",
+    "updatedAt": "2026-03-24T03:58:54.439995",
+    "deletedAt": null
+  },
+  {
+    "_id": "36ab5b3df398fd6d8395c3fa",
+    "patient_id": "5df15c7e9de128c360cdb314",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "Peptic Ulcer Disease",
+            "is_check": "yes",
+            "since": "2016",
+            "frequency": 4,
+            "per": "week"
+          }
+        ],
+        "createdAt": "2025-07-21T07:27:54.441447"
+      }
+    ],
+    "createdAt": "2025-07-21T07:27:54.441447",
+    "updatedAt": "2026-01-08T23:30:54.441443",
+    "deletedAt": null
+  },
+  {
+    "_id": "f872b2b0c90a8348843fe3a1",
+    "patient_id": "e4bb23756a955db1f12bbea5",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "Urinary Tract Infection",
+            "is_check": "yes",
+            "since": "2019",
+            "frequency": 8,
+            "per": "week"
+          },
+          {
+            "name": "Typhoid",
+            "is_check": "yes",
+            "since": "2021",
+            "frequency": 12,
+            "per": "month"
+          },
+          {
+            "name": "Gastroenteritis",
+            "is_check": "yes",
+            "since": "2012",
+            "frequency": 10,
+            "per": "week"
+          }
+        ],
+        "createdAt": "2025-07-10T03:15:54.442711"
+      }
+    ],
+    "createdAt": "2025-07-10T03:15:54.442711",
+    "updatedAt": "2025-09-10T09:49:54.442708",
+    "deletedAt": null
+  },
+  {
+    "_id": "5f1ef20b453486881d6a1c03",
+    "patient_id": "353c860b34d0546efc5a7b3b",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "Urinary Tract Infection",
+            "is_check": "no",
+            "since": "2021",
+            "frequency": 9,
+            "per": "year"
+          },
+          {
+            "name": "Gastroenteritis",
+            "is_check": "yes",
+            "since": "2015",
+            "frequency": 11,
+            "per": "week"
+          }
+        ],
+        "createdAt": "2025-08-09T19:56:54.444888"
+      }
+    ],
+    "createdAt": "2025-08-09T19:56:54.444888",
+    "updatedAt": "2026-06-06T18:09:54.444891",
+    "deletedAt": null
+  },
+  {
+    "_id": "75076849f5c84d8e3932444b",
+    "patient_id": "34393ee82103a0d6dd3c7721",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "Typhoid",
+            "is_check": "no",
+            "since": "2010",
+            "frequency": 11,
+            "per": "week"
+          }
+        ],
+        "createdAt": "2025-06-29T13:48:54.447290"
+      }
+    ],
+    "createdAt": "2025-06-29T13:48:54.447290",
+    "updatedAt": "2026-02-22T16:57:54.447293",
+    "deletedAt": null
+  },
+  {
+    "_id": "85e761b298ec4832ae414e0d",
+    "patient_id": "f2dc79ee02b026a4efb0010c",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "Acute Bronchitis",
+            "is_check": "no",
+            "since": "2020",
+            "frequency": 11,
+            "per": "week"
+          },
+          {
+            "name": "Hypertension",
+            "is_check": "yes",
+            "since": "2024",
+            "frequency": 2,
+            "per": "month"
+          },
+          {
+            "name": "Dermatitis",
+            "is_check": "yes",
+            "since": "2010",
+            "frequency": 12,
+            "per": "month"
+          }
+        ],
+        "createdAt": "2025-08-04T17:48:54.449757"
+      }
+    ],
+    "createdAt": "2025-08-04T17:48:54.449757",
+    "updatedAt": "2026-03-23T08:55:54.449766",
+    "deletedAt": null
+  },
+  {
+    "_id": "093ecb862b88b9d23700739a",
+    "patient_id": "9d9b4a19e0477c2bddc35b6a",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "Coronary Artery Disease",
+            "is_check": "yes",
+            "since": "2021",
+            "frequency": 5,
+            "per": "week"
+          }
+        ],
+        "createdAt": "2025-12-23T00:45:54.452045"
+      }
+    ],
+    "createdAt": "2025-12-23T00:45:54.452045",
+    "updatedAt": "2025-12-23T00:45:54.452045",
+    "deletedAt": null
+  },
+  {
+    "_id": "fbcc39d6212bb90f65c34d4e",
+    "patient_id": "77b9ecbb7160fcd6b0758745",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "Hypertension",
+            "is_check": "no",
+            "since": "2020",
+            "frequency": 4,
+            "per": "week"
+          },
+          {
+            "name": "Anemia",
+            "is_check": "yes",
+            "since": "2016",
+            "frequency": 8,
+            "per": "week"
+          }
+        ],
+        "createdAt": "2026-02-28T12:57:54.452436"
+      }
+    ],
+    "createdAt": "2026-02-28T12:57:54.452436",
+    "updatedAt": "2026-05-19T12:44:54.452431",
+    "deletedAt": null
+  },
+  {
+    "_id": "7f21a53675b85ec41af02707",
+    "patient_id": "4268a1c2f5ebf31a43d9ffb8",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "Malaria",
+            "is_check": "no",
+            "since": "2015",
+            "frequency": 8,
+            "per": "year"
+          },
+          {
+            "name": "Malaria",
+            "is_check": "no",
+            "since": "2020",
+            "frequency": 5,
+            "per": "month"
+          }
+        ],
+        "createdAt": "2025-08-31T22:01:54.454181"
+      }
+    ],
+    "createdAt": "2025-08-31T22:01:54.454181",
+    "updatedAt": "2026-03-21T16:51:54.454179",
+    "deletedAt": null
+  },
+  {
+    "_id": "6d0b26754ff990363da33665",
+    "patient_id": "f82b879988efccd875f18f61",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "Dengue Fever",
+            "is_check": "no",
+            "since": "2014",
+            "frequency": 6,
+            "per": "year"
+          },
+          {
+            "name": "Hypothyroidism",
+            "is_check": "yes",
+            "since": "2016",
+            "frequency": 10,
+            "per": "month"
+          }
+        ],
+        "createdAt": "2026-02-06T01:42:54.456166"
+      }
+    ],
+    "createdAt": "2026-02-06T01:42:54.456166",
+    "updatedAt": "2026-02-06T01:42:54.456166",
+    "deletedAt": null
+  },
+  {
+    "_id": "d3118ca7dfd73a709a8f0b50",
+    "patient_id": "5ad7b5daba55306352b551a5",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "GERD",
+            "is_check": "yes",
+            "since": "2012",
+            "frequency": 12,
+            "per": "year"
+          },
+          {
+            "name": "Tuberculosis",
+            "is_check": "yes",
+            "since": "2015",
+            "frequency": 6,
+            "per": "year"
+          }
+        ],
+        "createdAt": "2025-08-17T10:15:54.456618"
+      }
+    ],
+    "createdAt": "2025-08-17T10:15:54.456618",
+    "updatedAt": "2026-05-19T19:05:54.456622",
+    "deletedAt": null
+  },
+  {
+    "_id": "c6150520ed7ca5fa81eb4232",
+    "patient_id": "b79cded746bc5231fd3773ce",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "Viral Fever",
+            "is_check": "yes",
+            "since": "2011",
+            "frequency": 11,
+            "per": "month"
+          },
+          {
+            "name": "Coronary Artery Disease",
+            "is_check": "yes",
+            "since": "2022",
+            "frequency": 5,
+            "per": "week"
+          },
+          {
+            "name": "Type 1 Diabetes Mellitus",
+            "is_check": "no",
+            "since": "2023",
+            "frequency": 10,
+            "per": "month"
+          }
+        ],
+        "createdAt": "2025-07-28T08:36:54.457869"
+      }
+    ],
+    "createdAt": "2025-07-28T08:36:54.457869",
+    "updatedAt": "2026-02-15T10:08:54.457863",
+    "deletedAt": null
+  },
+  {
+    "_id": "f56cd5435b386536ab1fe39d",
+    "patient_id": "a85f645e09923c10235add4e",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "Rheumatoid Arthritis",
+            "is_check": "yes",
+            "since": "2012",
+            "frequency": 6,
+            "per": "week"
+          },
+          {
+            "name": "Anemia",
+            "is_check": "no",
+            "since": "2020",
+            "frequency": 1,
+            "per": "week"
+          }
+        ],
+        "createdAt": "2025-06-24T10:27:54.459508"
+      }
+    ],
+    "createdAt": "2025-06-24T10:27:54.459508",
+    "updatedAt": "2025-09-02T13:20:54.459515",
+    "deletedAt": null
+  },
+  {
+    "_id": "15777a3272a05b65e8144cc7",
+    "patient_id": "f7d9fc461b40b305313415fa",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "Acute Bronchitis",
+            "is_check": "yes",
+            "since": "2023",
+            "frequency": 7,
+            "per": "year"
+          }
+        ],
+        "createdAt": "2026-02-25T06:52:54.460374"
+      }
+    ],
+    "createdAt": "2026-02-25T06:52:54.460374",
+    "updatedAt": "2026-02-25T06:52:54.460374",
+    "deletedAt": null
+  },
+  {
+    "_id": "751413302e801cb603bcd210",
+    "patient_id": "b2ab8c7a9e80a49f8e29e336",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "Anemia",
+            "is_check": "no",
+            "since": "2020",
+            "frequency": 6,
+            "per": "month"
+          },
+          {
+            "name": "Typhoid",
+            "is_check": "no",
+            "since": "2015",
+            "frequency": 1,
+            "per": "year"
+          },
+          {
+            "name": "Depression",
+            "is_check": "yes",
+            "since": "2024",
+            "frequency": 6,
+            "per": "month"
+          }
+        ],
+        "createdAt": "2025-07-06T20:28:54.460708"
+      }
+    ],
+    "createdAt": "2025-07-06T20:28:54.460708",
+    "updatedAt": "2026-05-11T15:47:54.460715",
+    "deletedAt": null
+  },
+  {
+    "_id": "a9686bc5c6f0b3e60184b8a6",
+    "patient_id": "974399e6e3c5056a59cc0c96",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "Rheumatoid Arthritis",
+            "is_check": "yes",
+            "since": "2022",
+            "frequency": 8,
+            "per": "month"
+          }
+        ],
+        "createdAt": "2025-08-12T08:46:54.462973"
+      }
+    ],
+    "createdAt": "2025-08-12T08:46:54.462973",
+    "updatedAt": "2025-11-17T11:22:54.462971",
+    "deletedAt": null
+  },
+  {
+    "_id": "ee9d764468c19d220e34575c",
+    "patient_id": "71eb2d305fc1a74b8738ce34",
+    "label": [
+      {
+        "pasthistory": [],
+        "createdAt": "2025-08-18T08:31:54.465240"
+      }
+    ],
+    "createdAt": "2025-08-18T08:31:54.465240",
+    "updatedAt": "2026-02-15T07:24:54.465237",
+    "deletedAt": null
+  },
+  {
+    "_id": "84b792d3b325a3695a31595e",
+    "patient_id": "ba5b2ed24d4b5e13469bead2",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "Depression",
+            "is_check": "no",
+            "since": "2020",
+            "frequency": 11,
+            "per": "year"
+          },
+          {
+            "name": "Gastroenteritis",
+            "is_check": "yes",
+            "since": "2020",
+            "frequency": 7,
+            "per": "month"
+          },
+          {
+            "name": "Viral Fever",
+            "is_check": "yes",
+            "since": "2017",
+            "frequency": 7,
+            "per": "year"
+          }
+        ],
+        "createdAt": "2026-05-09T15:15:54.468114"
+      }
+    ],
+    "createdAt": "2026-05-09T15:15:54.468114",
+    "updatedAt": "2026-05-09T15:15:54.468114",
+    "deletedAt": null
+  },
+  {
+    "_id": "13527507d470d704198e7a1b",
+    "patient_id": "e9034f14cc409728970b3fe8",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "GERD",
+            "is_check": "yes",
+            "since": "2016",
+            "frequency": 6,
+            "per": "month"
+          },
+          {
+            "name": "Dermatitis",
+            "is_check": "yes",
+            "since": "2013",
+            "frequency": 3,
+            "per": "year"
+          },
+          {
+            "name": "Osteoarthritis",
+            "is_check": "no",
+            "since": "2011",
+            "frequency": 5,
+            "per": "year"
+          }
+        ],
+        "createdAt": "2025-09-15T05:59:54.468537"
+      }
+    ],
+    "createdAt": "2025-09-15T05:59:54.468537",
+    "updatedAt": "2026-05-12T07:11:54.468539",
+    "deletedAt": null
+  },
+  {
+    "_id": "edf5b58a9d3d9680d56cf68d",
+    "patient_id": "090b3f692a6b3a8e03ce68bf",
+    "label": [
+      {
+        "pasthistory": [],
+        "createdAt": "2025-09-19T05:23:54.471179"
+      }
+    ],
+    "createdAt": "2025-09-19T05:23:54.471179",
+    "updatedAt": "2026-04-05T14:13:54.471176",
+    "deletedAt": null
+  },
+  {
+    "_id": "b197ae70c0e161dedd06f16f",
+    "patient_id": "9be59809941edb7aa81ce6dd",
+    "label": [
+      {
+        "pasthistory": [],
+        "createdAt": "2026-01-04T23:01:54.473394"
+      }
+    ],
+    "createdAt": "2026-01-04T23:01:54.473394",
+    "updatedAt": "2026-04-06T10:13:54.473391",
+    "deletedAt": null
+  },
+  {
+    "_id": "774d81c1be2855f677b3c4b0",
+    "patient_id": "077c8e2736242c20ab854c6e",
+    "label": [
+      {
+        "pasthistory": [],
+        "createdAt": "2025-06-24T21:48:54.474667"
+      }
+    ],
+    "createdAt": "2025-06-24T21:48:54.474667",
+    "updatedAt": "2026-06-04T00:25:54.474674",
+    "deletedAt": null
+  },
+  {
+    "_id": "e5ba7b7d38ab4aedc3166efa",
+    "patient_id": "541f217772cffbc4d129c4ca",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "COPD",
+            "is_check": "no",
+            "since": "2018",
+            "frequency": 5,
+            "per": "year"
+          },
+          {
+            "name": "Typhoid",
+            "is_check": "no",
+            "since": "2015",
+            "frequency": 2,
+            "per": "week"
+          },
+          {
+            "name": "Gastroenteritis",
+            "is_check": "yes",
+            "since": "2015",
+            "frequency": 9,
+            "per": "year"
+          }
+        ],
+        "createdAt": "2025-07-08T09:56:54.476908"
+      }
+    ],
+    "createdAt": "2025-07-08T09:56:54.476908",
+    "updatedAt": "2026-03-02T23:53:54.476902",
+    "deletedAt": null
+  },
+  {
+    "_id": "100770fe8a414bedcab45bde",
+    "patient_id": "361fb00dbcb7c53888f6b2d0",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "Type 2 Diabetes Mellitus",
+            "is_check": "no",
+            "since": "2024",
+            "frequency": 8,
+            "per": "week"
+          }
+        ],
+        "createdAt": "2025-08-24T19:08:54.478674"
+      }
+    ],
+    "createdAt": "2025-08-24T19:08:54.478674",
+    "updatedAt": "2026-02-06T01:47:54.478671",
+    "deletedAt": null
+  },
+  {
+    "_id": "6d624e667284f8d8f6dbc7b0",
+    "patient_id": "5595d64be505988d71a868f9",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "Pneumonia",
+            "is_check": "yes",
+            "since": "2018",
+            "frequency": 12,
+            "per": "year"
+          }
+        ],
+        "createdAt": "2025-06-19T08:36:54.479850"
+      }
+    ],
+    "createdAt": "2025-06-19T08:36:54.479850",
+    "updatedAt": "2026-05-30T23:34:54.479848",
+    "deletedAt": null
+  },
+  {
+    "_id": "78132b2dfd669efb5316148d",
+    "patient_id": "d8aa5931ecbb86590cf7c33b",
+    "label": [
+      {
+        "pasthistory": [],
+        "createdAt": "2025-07-03T22:02:54.481884"
+      }
+    ],
+    "createdAt": "2025-07-03T22:02:54.481884",
+    "updatedAt": "2026-01-24T16:40:54.481886",
+    "deletedAt": null
+  },
+  {
+    "_id": "4b7cc729e202bb04c9ce466b",
+    "patient_id": "ab1ee1a6cee972a4efa840ed",
+    "label": [
+      {
+        "pasthistory": [],
+        "createdAt": "2025-10-21T21:46:54.484361"
+      }
+    ],
+    "createdAt": "2025-10-21T21:46:54.484361",
+    "updatedAt": "2026-05-18T22:06:54.484365",
+    "deletedAt": null
+  },
+  {
+    "_id": "f822d1fa947f9403cf2e3c6e",
+    "patient_id": "5b4cd720d512ae1bc6677189",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "Tension Headache",
+            "is_check": "no",
+            "since": "2021",
+            "frequency": 9,
+            "per": "week"
+          }
+        ],
+        "createdAt": "2025-12-08T23:11:54.485352"
+      }
+    ],
+    "createdAt": "2025-12-08T23:11:54.485352",
+    "updatedAt": "2026-06-01T22:33:54.485349",
+    "deletedAt": null
+  },
+  {
+    "_id": "4633a282eba2d1ec4f926090",
+    "patient_id": "a429309e3ec4c2600ca2f1f5",
+    "label": [
+      {
+        "pasthistory": [],
+        "createdAt": "2025-08-01T22:55:54.485981"
+      }
+    ],
+    "createdAt": "2025-08-01T22:55:54.485981",
+    "updatedAt": "2026-03-01T18:31:54.485978",
+    "deletedAt": null
+  },
+  {
+    "_id": "7f36216a08716ae04be6dda0",
+    "patient_id": "f0a06bc6fc8901f5b2be9d9e",
+    "label": [
+      {
+        "pasthistory": [
+          {
+            "name": "Osteoarthritis",
+            "is_check": "no",
+            "since": "2012",
+            "frequency": 8,
+            "per": "week"
+          }
+        ],
+        "createdAt": "2025-09-10T08:32:54.487992"
+      }
+    ],
+    "createdAt": "2025-09-10T08:32:54.487992",
+    "updatedAt": "2026-05-30T18:35:54.487990",
+    "deletedAt": null
+  }
+]

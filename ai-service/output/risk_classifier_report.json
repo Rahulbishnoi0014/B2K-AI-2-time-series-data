@@ -1,0 +1,293 @@
+{
+  "n_episodes": 98,
+  "n_critical": 10,
+  "test_accuracy": 0.88,
+  "test_f1_critical": 0.0,
+  "classification_report": {
+    "normal": {
+      "precision": 0.88,
+      "recall": 1.0,
+      "f1-score": 0.9361702127659575,
+      "support": 22.0
+    },
+    "critical": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "accuracy": 0.88,
+    "macro avg": {
+      "precision": 0.44,
+      "recall": 0.5,
+      "f1-score": 0.46808510638297873,
+      "support": 25.0
+    },
+    "weighted avg": {
+      "precision": 0.7744,
+      "recall": 0.88,
+      "f1-score": 0.8238297872340425,
+      "support": 25.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      22,
+      0
+    ],
+    [
+      3,
+      0
+    ]
+  ],
+  "feature_importances": [
+    [
+      "blood_oxygen_last",
+      0.15259821100162277
+    ],
+    [
+      "blood_oxygen_mean",
+      0.09839192446294841
+    ],
+    [
+      "blood_oxygen_min",
+      0.0908824879243768
+    ],
+    [
+      "bp_systolic_slope_per_hour",
+      0.060304248951613904
+    ],
+    [
+      "blood_oxygen_max",
+      0.0522591528568633
+    ],
+    [
+      "blood_oxygen_delta",
+      0.045569543264913484
+    ],
+    [
+      "bp_systolic_delta",
+      0.032816366671415055
+    ],
+    [
+      "blood_oxygen_slope_per_hour",
+      0.031758993529525256
+    ],
+    [
+      "temperature_std",
+      0.02888722071635303
+    ],
+    [
+      "bp_diastolic_slope_per_hour",
+      0.02256734998305911
+    ],
+    [
+      "temperature_n_readings",
+      0.022490466712952732
+    ],
+    [
+      "blood_oxygen_std",
+      0.020679711757836727
+    ],
+    [
+      "blood_glucose_delta",
+      0.020517036257409436
+    ],
+    [
+      "bp_systolic_min",
+      0.01812693280870566
+    ],
+    [
+      "bp_diastolic_delta",
+      0.01610574450933297
+    ],
+    [
+      "temperature_min",
+      0.015717578999286653
+    ],
+    [
+      "blood_oxygen_first",
+      0.014187503294394556
+    ],
+    [
+      "spirometer_mean",
+      0.013108034589113755
+    ],
+    [
+      "spirometer_first",
+      0.012385862548411177
+    ],
+    [
+      "blood_glucose_first",
+      0.01222924910203617
+    ],
+    [
+      "blood_glucose_slope_per_hour",
+      0.011699433986514553
+    ],
+    [
+      "bp_systolic_max",
+      0.010591849457665347
+    ],
+    [
+      "blood_glucose_mean",
+      0.010531788265425026
+    ],
+    [
+      "bp_systolic_mean",
+      0.010340920333738774
+    ],
+    [
+      "blood_glucose_last",
+      0.010144079205017873
+    ],
+    [
+      "blood_glucose_min",
+      0.010088273400394605
+    ],
+    [
+      "weight_kg",
+      0.009138165238965624
+    ],
+    [
+      "spirometer_n_readings",
+      0.009069991769755223
+    ],
+    [
+      "temperature_last",
+      0.008959889349416718
+    ],
+    [
+      "blood_glucose_max",
+      0.008766049458178448
+    ],
+    [
+      "spirometer_last",
+      0.008251912332112902
+    ],
+    [
+      "bp_diastolic_last",
+      0.007658274329554412
+    ],
+    [
+      "bp_diastolic_first",
+      0.007354381511687401
+    ],
+    [
+      "blood_glucose_std",
+      0.007233486042440475
+    ],
+    [
+      "spirometer_slope_per_hour",
+      0.007057557630869314
+    ],
+    [
+      "bp_diastolic_std",
+      0.006706108941721995
+    ],
+    [
+      "bp_systolic_std",
+      0.006320191460311289
+    ],
+    [
+      "spirometer_std",
+      0.00601505321182448
+    ],
+    [
+      "spirometer_delta",
+      0.0058845419961355856
+    ],
+    [
+      "spirometer_max",
+      0.005555397870540076
+    ],
+    [
+      "temperature_delta",
+      0.005473965656832126
+    ],
+    [
+      "blood_oxygen_pct_garbled",
+      0.0048862132001473695
+    ],
+    [
+      "bp_diastolic_min",
+      0.004830439241982258
+    ],
+    [
+      "temperature_slope_per_hour",
+      0.004340289983083604
+    ],
+    [
+      "temperature_first",
+      0.0038000942701730466
+    ],
+    [
+      "bp_diastolic_n_readings",
+      0.0036313282710850833
+    ],
+    [
+      "bp_systolic_n_readings",
+      0.0036292124682703484
+    ],
+    [
+      "spirometer_min",
+      0.003374044751068552
+    ],
+    [
+      "temperature_mean",
+      0.00286392419118465
+    ],
+    [
+      "bp_diastolic_max",
+      0.0019965065474415247
+    ],
+    [
+      "bp_diastolic_mean",
+      0.001973555100168459
+    ],
+    [
+      "bp_systolic_pct_garbled",
+      0.001949228359866982
+    ],
+    [
+      "bp_systolic_first",
+      0.001767711076616789
+    ],
+    [
+      "duration_hours",
+      0.0014973748968870417
+    ],
+    [
+      "temperature_max",
+      0.0012849757752419538
+    ],
+    [
+      "bp_systolic_last",
+      0.0009778508887831952
+    ],
+    [
+      "temperature_pct_garbled",
+      0.0009151089493349197
+    ],
+    [
+      "bp_diastolic_pct_garbled",
+      0.0007064478401903351
+    ],
+    [
+      "blood_glucose_n_readings",
+      0.0006337202114152432
+    ],
+    [
+      "blood_oxygen_n_readings",
+      0.0005170425857855519
+    ],
+    [
+      "blood_glucose_pct_garbled",
+      1.1674166132513368e-17
+    ],
+    [
+      "spirometer_pct_garbled",
+      0.0
+    ]
+  ]
+}

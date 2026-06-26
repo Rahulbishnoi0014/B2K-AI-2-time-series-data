@@ -1,0 +1,1188 @@
+[
+  {
+    "patient_id": "34393ee82103a0d6dd3c7721",
+    "reading_date": "2026-02-23T10:27:54.447293",
+    "vitals": {
+      "weight": "133 kg",
+      "temperature": "93.5 F",
+      "blood_pressure": "119/65",
+      "blood_oxygen": "92%",
+      "blood_glucose": "118"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 5,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 2,
+      "n2_systolic_bp": 0,
+      "n2_temperature": 3
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "HIGH",
+    "flag_count": 2,
+    "flags": [
+      {
+        "metric": "blood_oxygen",
+        "news2_subscore": 2,
+        "value": "92.0%",
+        "severity": "HIGH",
+        "reason": "blood oxygen scores 2 on NEWS2 (92.0%)",
+        "reading_date": "2026-02-23T10:27:54.447293"
+      },
+      {
+        "metric": "temperature",
+        "news2_subscore": 3,
+        "value": "34.2\u00b0C",
+        "severity": "HIGH",
+        "reason": "temperature scores 3 on NEWS2 (34.2\u00b0C)",
+        "reading_date": "2026-02-23T10:27:54.447293"
+      }
+    ]
+  },
+  {
+    "patient_id": "090b3f692a6b3a8e03ce68bf",
+    "reading_date": "2026-04-06T11:55:54.471176",
+    "vitals": {
+      "weight": "68 kg",
+      "temperature": "97.9 F",
+      "blood_pressure": "106/77",
+      "blood_oxygen": "78%",
+      "blood_glucose": "124"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 4,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 3,
+      "n2_systolic_bp": 1,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "HIGH",
+    "flag_count": 2,
+    "flags": [
+      {
+        "metric": "blood_oxygen",
+        "news2_subscore": 3,
+        "value": "78.0%",
+        "severity": "HIGH",
+        "reason": "blood oxygen scores 3 on NEWS2 (78.0%)",
+        "reading_date": "2026-04-06T11:55:54.471176"
+      },
+      {
+        "metric": "blood_pressure",
+        "news2_subscore": 1,
+        "value": "106 mmHg systolic",
+        "severity": "WATCH",
+        "reason": "blood pressure scores 1 on NEWS2 (106 mmHg systolic)",
+        "reading_date": "2026-04-06T11:55:54.471176"
+      }
+    ]
+  },
+  {
+    "patient_id": "f0a06bc6fc8901f5b2be9d9e",
+    "reading_date": "2026-05-31T04:35:54.487990",
+    "vitals": {
+      "weight": "64 kg",
+      "temperature": "93.0 F",
+      "blood_pressure": "109/71",
+      "blood_oxygen": "99%",
+      "blood_glucose": "114"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 4,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 1,
+      "n2_temperature": 3
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "HIGH",
+    "flag_count": 2,
+    "flags": [
+      {
+        "metric": "blood_pressure",
+        "news2_subscore": 1,
+        "value": "109 mmHg systolic",
+        "severity": "WATCH",
+        "reason": "blood pressure scores 1 on NEWS2 (109 mmHg systolic)",
+        "reading_date": "2026-05-31T04:35:54.487990"
+      },
+      {
+        "metric": "temperature",
+        "news2_subscore": 3,
+        "value": "33.9\u00b0C",
+        "severity": "HIGH",
+        "reason": "temperature scores 3 on NEWS2 (33.9\u00b0C)",
+        "reading_date": "2026-05-31T04:35:54.487990"
+      }
+    ]
+  },
+  {
+    "patient_id": "26eaac0a8a2caf272d920b0f",
+    "reading_date": "2026-03-24T19:58:54.439995",
+    "vitals": {
+      "weight": "72 kg",
+      "temperature": "99.0 F",
+      "blood_pressure": "98/69",
+      "blood_oxygen": "94%",
+      "blood_glucose": "114"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 3,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 1,
+      "n2_systolic_bp": 2,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "WATCH",
+    "flag_count": 2,
+    "flags": [
+      {
+        "metric": "blood_oxygen",
+        "news2_subscore": 1,
+        "value": "94.0%",
+        "severity": "WATCH",
+        "reason": "blood oxygen scores 1 on NEWS2 (94.0%)",
+        "reading_date": "2026-03-24T19:58:54.439995"
+      },
+      {
+        "metric": "blood_pressure",
+        "news2_subscore": 2,
+        "value": "98 mmHg systolic",
+        "severity": "HIGH",
+        "reason": "blood pressure scores 2 on NEWS2 (98 mmHg systolic)",
+        "reading_date": "2026-03-24T19:58:54.439995"
+      }
+    ]
+  },
+  {
+    "patient_id": "d8aa5931ecbb86590cf7c33b",
+    "reading_date": "2026-01-25T10:10:54.481886",
+    "vitals": {
+      "weight": "85 kg",
+      "temperature": "98.2 F",
+      "blood_pressure": "86/72",
+      "blood_oxygen": "96%",
+      "blood_glucose": "129"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 3,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 3,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "HIGH",
+    "flag_count": 1,
+    "flags": [
+      {
+        "metric": "blood_pressure",
+        "news2_subscore": 3,
+        "value": "86 mmHg systolic",
+        "severity": "HIGH",
+        "reason": "blood pressure scores 3 on NEWS2 (86 mmHg systolic)",
+        "reading_date": "2026-01-25T10:10:54.481886"
+      }
+    ]
+  },
+  {
+    "patient_id": "5df15c7e9de128c360cdb314",
+    "reading_date": "2026-01-09T20:13:54.441443",
+    "vitals": {
+      "weight": "67 kg",
+      "temperature": "99.0 F",
+      "blood_pressure": "117/65",
+      "blood_oxygen": "93%",
+      "blood_glucose": "95"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 2,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 2,
+      "n2_systolic_bp": 0,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "WATCH",
+    "flag_count": 1,
+    "flags": [
+      {
+        "metric": "blood_oxygen",
+        "news2_subscore": 2,
+        "value": "93.0%",
+        "severity": "HIGH",
+        "reason": "blood oxygen scores 2 on NEWS2 (93.0%)",
+        "reading_date": "2026-01-09T20:13:54.441443"
+      }
+    ]
+  },
+  {
+    "patient_id": "b79cded746bc5231fd3773ce",
+    "reading_date": "2026-02-15T20:56:54.457863",
+    "vitals": {
+      "weight": "59 kg",
+      "temperature": "97.2 F",
+      "blood_pressure": "108/75",
+      "blood_oxygen": "95%",
+      "blood_glucose": "87"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 2,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 1,
+      "n2_systolic_bp": 1,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "WATCH",
+    "flag_count": 2,
+    "flags": [
+      {
+        "metric": "blood_oxygen",
+        "news2_subscore": 1,
+        "value": "95.0%",
+        "severity": "WATCH",
+        "reason": "blood oxygen scores 1 on NEWS2 (95.0%)",
+        "reading_date": "2026-02-15T20:56:54.457863"
+      },
+      {
+        "metric": "blood_pressure",
+        "news2_subscore": 1,
+        "value": "108 mmHg systolic",
+        "severity": "WATCH",
+        "reason": "blood pressure scores 1 on NEWS2 (108 mmHg systolic)",
+        "reading_date": "2026-02-15T20:56:54.457863"
+      }
+    ]
+  },
+  {
+    "patient_id": "e4bb23756a955db1f12bbea5",
+    "reading_date": "2025-09-11T01:09:54.442708",
+    "vitals": {
+      "weight": "74 kg",
+      "temperature": "98.4 F",
+      "blood_pressure": "108/68",
+      "blood_oxygen": "100%",
+      "blood_glucose": "84"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 1,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 1,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "WATCH",
+    "flag_count": 1,
+    "flags": [
+      {
+        "metric": "blood_pressure",
+        "news2_subscore": 1,
+        "value": "108 mmHg systolic",
+        "severity": "WATCH",
+        "reason": "blood pressure scores 1 on NEWS2 (108 mmHg systolic)",
+        "reading_date": "2025-09-11T01:09:54.442708"
+      }
+    ]
+  },
+  {
+    "patient_id": "f2dc79ee02b026a4efb0010c",
+    "reading_date": "2026-03-23T18:15:54.449766",
+    "vitals": {
+      "weight": "70 kg",
+      "temperature": "97.1 F",
+      "blood_pressure": "128/76",
+      "blood_oxygen": "95%",
+      "blood_glucose": "103"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 1,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 1,
+      "n2_systolic_bp": 0,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "WATCH",
+    "flag_count": 1,
+    "flags": [
+      {
+        "metric": "blood_oxygen",
+        "news2_subscore": 1,
+        "value": "95.0%",
+        "severity": "WATCH",
+        "reason": "blood oxygen scores 1 on NEWS2 (95.0%)",
+        "reading_date": "2026-03-23T18:15:54.449766"
+      }
+    ]
+  },
+  {
+    "patient_id": "4268a1c2f5ebf31a43d9ffb8",
+    "reading_date": "2026-03-21T22:07:54.454179",
+    "vitals": {
+      "weight": "72 kg",
+      "temperature": "97.8 F",
+      "blood_pressure": "101/60",
+      "blood_oxygen": "96%",
+      "blood_glucose": "70"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 1,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 1,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "WATCH",
+    "flag_count": 1,
+    "flags": [
+      {
+        "metric": "blood_pressure",
+        "news2_subscore": 1,
+        "value": "101 mmHg systolic",
+        "severity": "WATCH",
+        "reason": "blood pressure scores 1 on NEWS2 (101 mmHg systolic)",
+        "reading_date": "2026-03-21T22:07:54.454179"
+      }
+    ]
+  },
+  {
+    "patient_id": "a85f645e09923c10235add4e",
+    "reading_date": "2025-09-03T09:20:54.459515",
+    "vitals": {
+      "weight": "50 kg",
+      "temperature": "97.5 F",
+      "blood_pressure": "106/66",
+      "blood_oxygen": "100%",
+      "blood_glucose": "81"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 1,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 1,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "WATCH",
+    "flag_count": 1,
+    "flags": [
+      {
+        "metric": "blood_pressure",
+        "news2_subscore": 1,
+        "value": "106 mmHg systolic",
+        "severity": "WATCH",
+        "reason": "blood pressure scores 1 on NEWS2 (106 mmHg systolic)",
+        "reading_date": "2025-09-03T09:20:54.459515"
+      }
+    ]
+  },
+  {
+    "patient_id": "541f217772cffbc4d129c4ca",
+    "reading_date": "2026-03-03T10:02:54.476902",
+    "vitals": {
+      "weight": "77 kg",
+      "temperature": "98.0 F",
+      "blood_pressure": "107/84",
+      "blood_oxygen": "98%",
+      "blood_glucose": "79"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 1,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 1,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "WATCH",
+    "flag_count": 1,
+    "flags": [
+      {
+        "metric": "blood_pressure",
+        "news2_subscore": 1,
+        "value": "107 mmHg systolic",
+        "severity": "WATCH",
+        "reason": "blood pressure scores 1 on NEWS2 (107 mmHg systolic)",
+        "reading_date": "2026-03-03T10:02:54.476902"
+      }
+    ]
+  },
+  {
+    "patient_id": "361fb00dbcb7c53888f6b2d0",
+    "reading_date": "2026-02-06T09:47:54.478671",
+    "vitals": {
+      "weight": "69 kg",
+      "temperature": "97.9 F",
+      "blood_pressure": "109/75",
+      "blood_oxygen": "100%",
+      "blood_glucose": "49"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 1,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 1,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "WATCH",
+    "flag_count": 1,
+    "flags": [
+      {
+        "metric": "blood_pressure",
+        "news2_subscore": 1,
+        "value": "109 mmHg systolic",
+        "severity": "WATCH",
+        "reason": "blood pressure scores 1 on NEWS2 (109 mmHg systolic)",
+        "reading_date": "2026-02-06T09:47:54.478671"
+      }
+    ]
+  },
+  {
+    "patient_id": "ab1ee1a6cee972a4efa840ed",
+    "reading_date": "2026-05-19T08:18:54.484365",
+    "vitals": {
+      "weight": "70 kg",
+      "temperature": "97.3 F",
+      "blood_pressure": "108/81",
+      "blood_oxygen": "100%",
+      "blood_glucose": "99"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 1,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 1,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "WATCH",
+    "flag_count": 1,
+    "flags": [
+      {
+        "metric": "blood_pressure",
+        "news2_subscore": 1,
+        "value": "108 mmHg systolic",
+        "severity": "WATCH",
+        "reason": "blood pressure scores 1 on NEWS2 (108 mmHg systolic)",
+        "reading_date": "2026-05-19T08:18:54.484365"
+      }
+    ]
+  },
+  {
+    "patient_id": "353c860b34d0546efc5a7b3b",
+    "reading_date": "2026-06-07T12:54:54.444891",
+    "vitals": {
+      "weight": "82 kg",
+      "temperature": "97.3 F",
+      "blood_pressure": "127/86",
+      "blood_oxygen": "97%",
+      "blood_glucose": "99"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 0,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 0,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "NORMAL",
+    "flag_count": 0,
+    "flags": []
+  },
+  {
+    "patient_id": "9d9b4a19e0477c2bddc35b6a",
+    "reading_date": "2025-12-23T11:57:54.452045",
+    "vitals": {
+      "weight": "78 kg",
+      "temperature": "99.5 F",
+      "blood_pressure": "113/75",
+      "blood_oxygen": "98%",
+      "blood_glucose": "75"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 0,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 0,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "NORMAL",
+    "flag_count": 0,
+    "flags": []
+  },
+  {
+    "patient_id": "77b9ecbb7160fcd6b0758745",
+    "reading_date": "2026-05-20T00:14:54.452431",
+    "vitals": {
+      "weight": "67 kg",
+      "temperature": "98.7 F",
+      "blood_pressure": "116/79",
+      "blood_oxygen": "100%",
+      "blood_glucose": "107"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 0,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 0,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "NORMAL",
+    "flag_count": 0,
+    "flags": []
+  },
+  {
+    "patient_id": "f82b879988efccd875f18f61",
+    "reading_date": "2026-02-06T19:32:54.456166",
+    "vitals": {
+      "weight": "85 kg",
+      "temperature": "98.9 F",
+      "blood_pressure": "115/78",
+      "blood_oxygen": "97%",
+      "blood_glucose": "113"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 0,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 0,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "NORMAL",
+    "flag_count": 0,
+    "flags": []
+  },
+  {
+    "patient_id": "5ad7b5daba55306352b551a5",
+    "reading_date": "2026-05-20T14:53:54.456622",
+    "vitals": {
+      "weight": "85 kg",
+      "temperature": "99.0 F",
+      "blood_pressure": "123/61",
+      "blood_oxygen": "97%",
+      "blood_glucose": "87"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 0,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 0,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "NORMAL",
+    "flag_count": 0,
+    "flags": []
+  },
+  {
+    "patient_id": "f7d9fc461b40b305313415fa",
+    "reading_date": "2026-02-25T11:58:54.460374",
+    "vitals": {
+      "weight": "77 kg",
+      "temperature": "98.0 F",
+      "blood_pressure": "116/71",
+      "blood_oxygen": "99%",
+      "blood_glucose": "90"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 0,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 0,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "NORMAL",
+    "flag_count": 0,
+    "flags": []
+  },
+  {
+    "patient_id": "b2ab8c7a9e80a49f8e29e336",
+    "reading_date": "2026-05-11T23:42:54.460715",
+    "vitals": {
+      "weight": "58 kg",
+      "temperature": "99.1 F",
+      "blood_pressure": "123/73",
+      "blood_oxygen": "97%",
+      "blood_glucose": "94"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 0,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 0,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "NORMAL",
+    "flag_count": 0,
+    "flags": []
+  },
+  {
+    "patient_id": "974399e6e3c5056a59cc0c96",
+    "reading_date": "2025-11-17T20:58:54.462971",
+    "vitals": {
+      "weight": "85 kg",
+      "temperature": "97.5 F",
+      "blood_pressure": "121/67",
+      "blood_oxygen": "97%",
+      "blood_glucose": "108"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 0,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 0,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "NORMAL",
+    "flag_count": 0,
+    "flags": []
+  },
+  {
+    "patient_id": "71eb2d305fc1a74b8738ce34",
+    "reading_date": "2026-02-15T23:54:54.465237",
+    "vitals": {
+      "weight": "73 kg",
+      "temperature": "99.1 F",
+      "blood_pressure": "120/72",
+      "blood_oxygen": "97%",
+      "blood_glucose": "87"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 0,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 0,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "NORMAL",
+    "flag_count": 0,
+    "flags": []
+  },
+  {
+    "patient_id": "ba5b2ed24d4b5e13469bead2",
+    "reading_date": "2026-05-10T02:27:54.468114",
+    "vitals": {
+      "weight": "83 kg",
+      "temperature": "98.2 F",
+      "blood_pressure": "122/89",
+      "blood_oxygen": "97%",
+      "blood_glucose": "98"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 0,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 0,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "NORMAL",
+    "flag_count": 0,
+    "flags": []
+  },
+  {
+    "patient_id": "e9034f14cc409728970b3fe8",
+    "reading_date": "2026-05-12T18:35:54.468539",
+    "vitals": {
+      "weight": "56 kg",
+      "temperature": "97.5 F",
+      "blood_pressure": "111/66",
+      "blood_oxygen": "98%",
+      "blood_glucose": "74"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 0,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 0,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "NORMAL",
+    "flag_count": 0,
+    "flags": []
+  },
+  {
+    "patient_id": "9be59809941edb7aa81ce6dd",
+    "reading_date": "2026-04-07T01:23:54.473391",
+    "vitals": {
+      "weight": "81 kg",
+      "temperature": "98.9 F",
+      "blood_pressure": "122/60",
+      "blood_oxygen": "97%",
+      "blood_glucose": "95"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 0,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 0,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "NORMAL",
+    "flag_count": 0,
+    "flags": []
+  },
+  {
+    "patient_id": "077c8e2736242c20ab854c6e",
+    "reading_date": "2026-06-04T10:07:54.474674",
+    "vitals": {
+      "weight": "50 kg",
+      "temperature": "97.3 F",
+      "blood_pressure": "124/81",
+      "blood_oxygen": "97%",
+      "blood_glucose": "89"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 0,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 0,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "NORMAL",
+    "flag_count": 0,
+    "flags": []
+  },
+  {
+    "patient_id": "5595d64be505988d71a868f9",
+    "reading_date": "2026-05-31T22:26:54.479848",
+    "vitals": {
+      "weight": "81 kg",
+      "temperature": "98.1 F",
+      "blood_pressure": "114/66",
+      "blood_oxygen": "97%",
+      "blood_glucose": "127"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 0,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 0,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "NORMAL",
+    "flag_count": 0,
+    "flags": []
+  },
+  {
+    "patient_id": "5b4cd720d512ae1bc6677189",
+    "reading_date": "2026-06-02T10:03:54.485349",
+    "vitals": {
+      "weight": "63 kg",
+      "temperature": "98.9 F",
+      "blood_pressure": "124/62",
+      "blood_oxygen": "100%",
+      "blood_glucose": "132"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 0,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 0,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "NORMAL",
+    "flag_count": 0,
+    "flags": []
+  },
+  {
+    "patient_id": "a429309e3ec4c2600ca2f1f5",
+    "reading_date": "2026-03-02T07:07:54.485978",
+    "vitals": {
+      "weight": "77 kg",
+      "temperature": "98.1 F",
+      "blood_pressure": "121/78",
+      "blood_oxygen": "97%",
+      "blood_glucose": "119"
+    },
+    "scoring_system": "NEWS2-India (partial \u2014 3 of 7 parameters)",
+    "news2_version": "indian_adaptation_v1_partial",
+    "news2_total": 0,
+    "spo2_scale_used": 1,
+    "subscores": {
+      "n2_spo2": 0,
+      "n2_systolic_bp": 0,
+      "n2_temperature": 0
+    },
+    "parameters_scored": [
+      "spo2",
+      "systolic_bp",
+      "temperature"
+    ],
+    "parameters_unavailable": [
+      "respiratory_rate",
+      "heart_rate",
+      "consciousness",
+      "supplemental_oxygen"
+    ],
+    "overall_severity": "NORMAL",
+    "flag_count": 0,
+    "flags": []
+  }
+]

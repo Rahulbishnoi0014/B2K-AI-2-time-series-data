@@ -1,0 +1,611 @@
+/* ============================================================
+   Tele-Consultation AI — clinical console
+   Refined, calm, high-legibility. Serif display for headings
+   (Newsreader) paired with a clean grotesque body (Hanken Grotesk).
+   ============================================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Hanken+Grotesk:wght@400;500;600;700&display=swap");
+
+:root {
+  --bg: #f3f5f4;
+  --panel: #ffffff;
+  --ink: #16201c;
+  --ink-soft: #5b6b64;
+  --line: #e1e6e3;
+  --accent: #0f6b54;
+  --accent-soft: #e6f1ed;
+
+  --normal: #0f7a52;
+  --watch: #b7791f;
+  --high: #c2410c;
+  --critical: #b91c1c;
+
+  --radius: 10px;
+  --shadow: 0 1px 2px rgba(22, 32, 28, 0.04), 0 4px 16px rgba(22, 32, 28, 0.05);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Hanken Grotesk", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---- Header ---- */
+header {
+  background: var(--panel);
+  border-bottom: 1px solid var(--line);
+  padding: 14px 28px;
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+header h1 {
+  font-family: "Newsreader", serif;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: -0.01em;
+}
+header .subtitle {
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+header .spacer {
+  flex: 1;
+}
+header .status {
+  font-size: 12px;
+  color: var(--accent);
+  font-weight: 500;
+}
+
+/* ---- Patient bar ---- */
+.patient-bar {
+  background: var(--panel);
+  border-bottom: 1px solid var(--line);
+  padding: 14px 28px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.patient-bar select,
+.patient-bar input {
+  font-family: inherit;
+  font-size: 14px;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+}
+.patient-bar select {
+  min-width: 280px;
+}
+.patient-bar input {
+  width: 150px;
+}
+.btn {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.15s ease, opacity 0.15s ease;
+}
+.btn:hover {
+  background: #0c5644;
+}
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.btn.secondary {
+  background: #fff;
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+.btn.secondary:hover {
+  background: var(--bg);
+}
+
+.patient-info {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  color: var(--ink-soft);
+  font-size: 13px;
+}
+.patient-info strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* ---- Layout ---- */
+main {
+  padding: 24px 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+@media (max-width: 920px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.panel-head {
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.panel-head h2 {
+  font-family: "Newsreader", serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+.panel-head .tag {
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.panel-body {
+  padding: 18px;
+  min-height: 90px;
+}
+
+/* ---- Severity ---- */
+.sev-pill {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 3px 10px;
+  border-radius: 999px;
+  text-transform: uppercase;
+}
+.sev-pill.NORMAL {
+  background: var(--accent-soft);
+  color: var(--normal);
+}
+.sev-pill.WATCH {
+  background: #fdf3e2;
+  color: var(--watch);
+}
+.sev-pill.HIGH {
+  background: #fde9dd;
+  color: var(--high);
+}
+.sev-pill.CRITICAL {
+  background: #fbe2e2;
+  color: var(--critical);
+}
+
+.vitals-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+.vital-box {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 10px;
+  text-align: center;
+}
+.vital-box .label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+}
+.vital-box .value {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.vital-stream-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 12px;
+}
+.vital-stream-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+.vital-stream-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+}
+.vital-stream-value {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 2px;
+}
+.vital-stream-unit {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--ink-soft);
+}
+.vital-stream-meta {
+  font-size: 10px;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.flag-item {
+  border-left: 3px solid var(--line);
+  padding: 8px 12px;
+  margin-top: 8px;
+  background: var(--bg);
+  border-radius: 0 6px 6px 0;
+}
+.flag-item.sev-WATCH {
+  border-left-color: var(--watch);
+}
+.flag-item.sev-HIGH {
+  border-left-color: var(--high);
+}
+.flag-item.sev-CRITICAL {
+  border-left-color: var(--critical);
+}
+.flag-metric {
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+.flag-reason {
+  font-size: 13px;
+  color: var(--ink-soft);
+  margin-top: 2px;
+}
+
+.ok-line {
+  color: var(--normal);
+  font-size: 13px;
+  margin-top: 12px;
+}
+
+/* ---- Summary ---- */
+.summary-meta {
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin-bottom: 10px;
+}
+.summary-text {
+  white-space: pre-wrap;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.hallucination-warning {
+  margin-top: 12px;
+  padding: 10px 12px;
+  background: #fdf3e2;
+  border: 1px solid #f0d9a8;
+  border-radius: 8px;
+  font-size: 12px;
+  color: var(--watch);
+}
+
+/* ---- Chat ---- */
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 360px;
+  overflow-y: auto;
+  margin-bottom: 12px;
+}
+.msg {
+  padding: 9px 13px;
+  border-radius: 12px;
+  font-size: 13.5px;
+  max-width: 85%;
+  line-height: 1.5;
+}
+.msg.user {
+  align-self: flex-end;
+  background: var(--accent);
+  color: #fff;
+  border-bottom-right-radius: 4px;
+}
+.msg.assistant {
+  align-self: flex-start;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-bottom-left-radius: 4px;
+  white-space: pre-wrap;
+}
+.msg.thinking {
+  align-self: flex-start;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+.chat-suggestions {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.chip {
+  font-size: 12px;
+  padding: 5px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  cursor: pointer;
+  color: var(--ink-soft);
+}
+.chip:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.chat-input-row {
+  display: flex;
+  gap: 8px;
+}
+.chat-input-row input {
+  flex: 1;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 9px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+/* ---- Visit form ---- */
+.visit-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.field label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--ink-soft);
+}
+.field input,
+.field textarea {
+  font-family: inherit;
+  font-size: 13px;
+  padding: 7px 9px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+}
+.field.full {
+  grid-column: 1 / -1;
+}
+.drug-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr auto;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+.save-result {
+  margin-top: 12px;
+  padding: 10px 12px;
+  background: var(--accent-soft);
+  border-radius: 8px;
+  font-size: 13px;
+  color: var(--accent);
+}
+
+/* ---- States ---- */
+.loading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--ink-soft);
+  font-size: 13px;
+}
+.spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--line);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.empty-state {
+  color: var(--ink-soft);
+  font-size: 13px;
+  font-style: italic;
+}
+.error {
+  color: var(--critical);
+  font-size: 13px;
+}
+.error small {
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+.summary-scroll {
+  max-height: 320px;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+.summary-section {
+  margin-bottom: 14px;
+}
+.summary-section h4 {
+  font-family: "Newsreader", serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+.summary-section ul {
+  margin: 0;
+  padding-left: 16px;
+}
+.summary-section li {
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 2px;
+}
+.summary-section p {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink);
+}
+.summary-paragraph {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--text, #333);
+  margin-top: 0.75rem;
+}
+.summary-compact {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.summary-trend {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--text, #333);
+  margin: 0;
+}
+
+.summary-line {
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: var(--text-muted, #555);
+  margin: 0;
+}
+
+.summary-label {
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text, #333);
+  margin-right: 0.5rem;
+}
+
+.summary-tests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.25rem;
+}
+
+.test-chip {
+  background: var(--bg-alt, #f0f0f0);
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.78rem;
+  color: var(--text, #444);
+}
+.visit-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.visit-table th {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 2px solid var(--border, #e0e0e0);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted, #888);
+}
+
+.visit-table td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--border, #eee);
+  vertical-align: top;
+  color: var(--text, #333);
+}
+
+.visit-table tr:last-child td {
+  border-bottom: none;
+}
+
+.visit-table tr:hover td {
+  background: var(--bg-alt, #f9f9f9);
+}
+/* ---- Today's symptoms (paramedic update) ---- */
+.today-panel {
+  border-left: 3px solid var(--accent);
+}
+.today-meta {
+  font-size: 12px;
+  color: var(--ink-soft);
+  margin-bottom: 10px;
+}
+.symptom-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.symptom-chip {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 5px 12px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-radius: 999px;
+}
+.today-dx {
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--ink);
+}
+.today-dx-label {
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+.today-empty { font-size: 13px; color: var(--ink-soft); }
+.today-empty-sub { font-size: 12px; font-style: italic; margin-top: 4px; opacity: 0.8; }
+.today-note { margin-top: 10px; font-size: 13px; font-style: italic; color: var(--ink); }

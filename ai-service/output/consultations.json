@@ -1,0 +1,1576 @@
+[
+  {
+    "_id": "3a0d21b9fb9118ce681b2e1c",
+    "appointment_id": "3be5aed9e1486709b1c6a9a9",
+    "symptoms": [
+      "9658e5d346511676024b8588",
+      "f7500e131a1e28135a4ccf92",
+      "a06cb10759b577b60d6ffe65"
+    ],
+    "diagnosis": [
+      "6ab9f1165323a4ae0cc312f7"
+    ],
+    "prescription": "a121165437a30343f9e88a13",
+    "createdAt": "2025-09-26T05:02:54.439998",
+    "updatedAt": "2025-09-26T05:02:54.439998",
+    "deletedAt": null
+  },
+  {
+    "_id": "6ef7afd259bdc5c0ed7fbd50",
+    "appointment_id": "af7ab7a5da788f15110d248f",
+    "symptoms": [
+      "9658e5d346511676024b8588"
+    ],
+    "diagnosis": [
+      "a6470eb837407b46fdd31f04"
+    ],
+    "prescription": "149225d58d098f8d9f2b99cf",
+    "createdAt": "2026-03-24T03:58:54.439995",
+    "updatedAt": "2026-03-24T03:58:54.439995",
+    "deletedAt": null
+  },
+  {
+    "_id": "b1dec4db61891a254a97d138",
+    "appointment_id": "7f9756f7faf366fc50b4581c",
+    "symptoms": [
+      "689c51d1a1309f4d860d397b",
+      "db9f9838d74521217eb55a3c"
+    ],
+    "diagnosis": [
+      "dbf08600e2cc1ea88d0b4cae",
+      "5d80d63d219aff5983610ca2"
+    ],
+    "prescription": "d59cf48be922b726201d50d1",
+    "createdAt": "2025-07-21T07:27:54.441447",
+    "updatedAt": "2025-07-21T07:27:54.441447",
+    "deletedAt": null
+  },
+  {
+    "_id": "c249e19feccab387005b983a",
+    "appointment_id": "bc0a8fa673272f18f9f8ece8",
+    "symptoms": [
+      "64b99ee56f27770928bae4ca",
+      "8ab4976d4d87449264fcb2aa",
+      "ae9cc02bf670a4b53f66944a"
+    ],
+    "diagnosis": [
+      "5f67d350e2029f22c74bcd69",
+      "180d8701c963dfd88013ad1f"
+    ],
+    "prescription": "9dd74ff8ccaafb870b0715e3",
+    "createdAt": "2026-01-08T23:30:54.441443",
+    "updatedAt": "2026-01-08T23:30:54.441443",
+    "deletedAt": null
+  },
+  {
+    "_id": "97a0b797a1ac06b3accb5a4e",
+    "appointment_id": "20df02e378f08e4d9efaa977",
+    "symptoms": [
+      "96e319af6181e81e7b92d8ac",
+      "9658e5d346511676024b8588",
+      "aad83b08c1a20c8bdd295f5a",
+      "acc523f3c257a78de6451989"
+    ],
+    "diagnosis": [
+      "29e32602c06079b5525252c5",
+      "a6470eb837407b46fdd31f04"
+    ],
+    "prescription": "77b35594c669ffd7f49b6991",
+    "createdAt": "2025-07-10T03:15:54.442711",
+    "updatedAt": "2025-07-10T03:15:54.442711",
+    "deletedAt": null
+  },
+  {
+    "_id": "092ba41c32bff96328f5b386",
+    "appointment_id": "6bbc3e997674972ef1de4b72",
+    "symptoms": [
+      "271b9386be8b49f87a5ccb6d",
+      "626fffa77160f78214bd17e5",
+      "aad83b08c1a20c8bdd295f5a",
+      "61106412d9c5789f2c4ebe68"
+    ],
+    "diagnosis": [
+      "279be6d9f38abadeac9b469d"
+    ],
+    "prescription": "3420e3a406c00e77ef4cb306",
+    "createdAt": "2025-07-13T11:33:54.442714",
+    "updatedAt": "2025-07-13T11:33:54.442714",
+    "deletedAt": null
+  },
+  {
+    "_id": "c49c11db56b9841954a7eadd",
+    "appointment_id": "c38e63634498517f01ffa137",
+    "symptoms": [
+      "fc30024453f3e4aa4282c6d8",
+      "e615d75da20587d8a963e511",
+      "f9665b0d558aa020acec0173"
+    ],
+    "diagnosis": [
+      "b8681607d3ea5f0922694598"
+    ],
+    "prescription": "d89122cc2b40c0878488474f",
+    "createdAt": "2025-09-10T09:49:54.442708",
+    "updatedAt": "2025-09-10T09:49:54.442708",
+    "deletedAt": null
+  },
+  {
+    "_id": "4c135ff6e2213584411644f6",
+    "appointment_id": "fcff8cbe7a35934886f49acb",
+    "symptoms": [
+      "e615d75da20587d8a963e511",
+      "12c4c32f32bc221c0d8b5b12",
+      "96e319af6181e81e7b92d8ac",
+      "1e31f450e737a6cf58c7a330"
+    ],
+    "diagnosis": [
+      "180d8701c963dfd88013ad1f",
+      "ef67dce6e07e652036fba8bb"
+    ],
+    "prescription": "0cc452fc09f5b1a2bf4d8056",
+    "createdAt": "2025-08-09T19:56:54.444888",
+    "updatedAt": "2025-08-09T19:56:54.444888",
+    "deletedAt": null
+  },
+  {
+    "_id": "429947563afb863aabad21b8",
+    "appointment_id": "5f6c5cc5c67fcadf55ee2fca",
+    "symptoms": [
+      "aad83b08c1a20c8bdd295f5a",
+      "271b9386be8b49f87a5ccb6d",
+      "8ab4976d4d87449264fcb2aa"
+    ],
+    "diagnosis": [
+      "5f67d350e2029f22c74bcd69"
+    ],
+    "prescription": "6d80d8c4c3e1f796594a6678",
+    "createdAt": "2025-09-27T23:59:54.444893",
+    "updatedAt": "2025-09-27T23:59:54.444893",
+    "deletedAt": null
+  },
+  {
+    "_id": "aab6367dcf53426f2f676149",
+    "appointment_id": "8bd14db61d6bc0cfada1ab6c",
+    "symptoms": [
+      "12c4c32f32bc221c0d8b5b12",
+      "b6994a9513b5776451ab5014",
+      "e30781cad1c4a3cf3788c5ff"
+    ],
+    "diagnosis": [
+      "724894a29d317f8c9b8aff3e"
+    ],
+    "prescription": "81a8e2555d3e572ca801bb2e",
+    "createdAt": "2026-01-10T02:36:54.444883",
+    "updatedAt": "2026-01-10T02:36:54.444883",
+    "deletedAt": null
+  },
+  {
+    "_id": "75da39cfb885e1c61671dced",
+    "appointment_id": "509ccc3e810c59975b5dd0e8",
+    "symptoms": [
+      "aad83b08c1a20c8bdd295f5a"
+    ],
+    "diagnosis": [
+      "5f67d350e2029f22c74bcd69",
+      "63a6feffa4d11426c5b3df23"
+    ],
+    "prescription": "089ba7d64f22f35099ba8e7c",
+    "createdAt": "2026-06-06T18:09:54.444891",
+    "updatedAt": "2026-06-06T18:09:54.444891",
+    "deletedAt": null
+  },
+  {
+    "_id": "ffc668e3a372d40724608162",
+    "appointment_id": "2b07b64488572346ce6b8a0f",
+    "symptoms": [
+      "5b6b40fb7deaad7697600f30",
+      "a64b702b5311caea01c808eb",
+      "fc30024453f3e4aa4282c6d8",
+      "fb88403bccebbfa570069576"
+    ],
+    "diagnosis": [
+      "72a57ef953c4abd9ff7a0bf6"
+    ],
+    "prescription": "5feb2a3468b84341b327dcd8",
+    "createdAt": "2025-06-29T13:48:54.447290",
+    "updatedAt": "2025-06-29T13:48:54.447290",
+    "deletedAt": null
+  },
+  {
+    "_id": "7fa69e8e9f213ee3dea7cfe5",
+    "appointment_id": "94e27f20b67ece8e3f16e43b",
+    "symptoms": [
+      "ae9cc02bf670a4b53f66944a",
+      "271b9386be8b49f87a5ccb6d"
+    ],
+    "diagnosis": [
+      "180d8701c963dfd88013ad1f"
+    ],
+    "prescription": "5bfb6932bd4b0ccdcd70dbef",
+    "createdAt": "2025-10-01T21:08:54.447287",
+    "updatedAt": "2025-10-01T21:08:54.447287",
+    "deletedAt": null
+  },
+  {
+    "_id": "2970c31918e40479bde7a7b6",
+    "appointment_id": "0d1a89173444a12527f4e734",
+    "symptoms": [
+      "ae9cc02bf670a4b53f66944a",
+      "aad83b08c1a20c8bdd295f5a",
+      "f7500e131a1e28135a4ccf92",
+      "6b7c5b72d01bea429d5438c1"
+    ],
+    "diagnosis": [
+      "be9de875127b2a06ad52b48b"
+    ],
+    "prescription": "ed1f196df9eef5f8363f0dba",
+    "createdAt": "2025-10-27T10:29:54.447298",
+    "updatedAt": "2025-10-27T10:29:54.447298",
+    "deletedAt": null
+  },
+  {
+    "_id": "b3c3b50d0e572fb9f27ca72b",
+    "appointment_id": "835d36653463b17b4d1e950c",
+    "symptoms": [
+      "6b7c5b72d01bea429d5438c1",
+      "e615d75da20587d8a963e511",
+      "db9f9838d74521217eb55a3c",
+      "12c4c32f32bc221c0d8b5b12"
+    ],
+    "diagnosis": [
+      "724894a29d317f8c9b8aff3e",
+      "9c5017b834edb119728ed5cc"
+    ],
+    "prescription": "50131535e58ea216b9dd544c",
+    "createdAt": "2025-12-08T18:03:54.447295",
+    "updatedAt": "2025-12-08T18:03:54.447295",
+    "deletedAt": null
+  },
+  {
+    "_id": "04e02c20085a01fd6474e03f",
+    "appointment_id": "0892f605666f6c5e081a940f",
+    "symptoms": [
+      "a64b702b5311caea01c808eb"
+    ],
+    "diagnosis": [
+      "be9de875127b2a06ad52b48b"
+    ],
+    "prescription": "d6a2d29922a339911f7794c8",
+    "createdAt": "2026-02-22T16:57:54.447293",
+    "updatedAt": "2026-02-22T16:57:54.447293",
+    "deletedAt": null
+  },
+  {
+    "_id": "095965c48ec1ea86a8311a8e",
+    "appointment_id": "1c26ea4dab7f76a52003cd75",
+    "symptoms": [
+      "a64b702b5311caea01c808eb"
+    ],
+    "diagnosis": [
+      "f3d713211871c850ac774d3a"
+    ],
+    "prescription": "11c85f7cb760e4aa82d86f79",
+    "createdAt": "2025-08-04T17:48:54.449757",
+    "updatedAt": "2025-08-04T17:48:54.449757",
+    "deletedAt": null
+  },
+  {
+    "_id": "89770a02eaee0f829f61298a",
+    "appointment_id": "ba476663106421943b3d914e",
+    "symptoms": [
+      "acc523f3c257a78de6451989"
+    ],
+    "diagnosis": [
+      "e543103521445265d3d89ab7",
+      "5f67d350e2029f22c74bcd69"
+    ],
+    "prescription": "51e5693c40936d7b1a899403",
+    "createdAt": "2025-10-04T16:52:54.449763",
+    "updatedAt": "2025-10-04T16:52:54.449763",
+    "deletedAt": null
+  },
+  {
+    "_id": "4d8f004a8f0eb84f0546be7b",
+    "appointment_id": "0600515c32a0b59573424996",
+    "symptoms": [
+      "6adf6829f1e1bf9981f11522",
+      "64b99ee56f27770928bae4ca",
+      "aad83b08c1a20c8bdd295f5a",
+      "e615d75da20587d8a963e511"
+    ],
+    "diagnosis": [
+      "a6470eb837407b46fdd31f04",
+      "2c7d5010bac4b773348e4d1c"
+    ],
+    "prescription": "ab85b2e1961758ceed975a94",
+    "createdAt": "2026-02-17T23:46:54.449768",
+    "updatedAt": "2026-02-17T23:46:54.449768",
+    "deletedAt": null
+  },
+  {
+    "_id": "e879c367a90ecc2a0664d3ab",
+    "appointment_id": "a049440018ab86a4c862683d",
+    "symptoms": [
+      "db9f9838d74521217eb55a3c",
+      "b6994a9513b5776451ab5014",
+      "1e31f450e737a6cf58c7a330"
+    ],
+    "diagnosis": [
+      "f3d713211871c850ac774d3a",
+      "b21bb49c1f6ad20b86de0039"
+    ],
+    "prescription": "f9b11da0711875b4ae78deea",
+    "createdAt": "2026-03-08T21:17:54.449761",
+    "updatedAt": "2026-03-08T21:17:54.449761",
+    "deletedAt": null
+  },
+  {
+    "_id": "a56e6ccac21da7a7cc018e61",
+    "appointment_id": "9d28b474153b8006596f786e",
+    "symptoms": [
+      "6adf6829f1e1bf9981f11522",
+      "9658e5d346511676024b8588",
+      "f9665b0d558aa020acec0173"
+    ],
+    "diagnosis": [
+      "949310ec46eb8fe407a59210",
+      "b8681607d3ea5f0922694598"
+    ],
+    "prescription": "cd53cbc027bbbf3f22d34415",
+    "createdAt": "2026-03-23T08:55:54.449766",
+    "updatedAt": "2026-03-23T08:55:54.449766",
+    "deletedAt": null
+  },
+  {
+    "_id": "d1304dfc17107126df3457fa",
+    "appointment_id": "0fa5c37b13ea53034effb878",
+    "symptoms": [
+      "5b6b40fb7deaad7697600f30"
+    ],
+    "diagnosis": [
+      "63a6feffa4d11426c5b3df23"
+    ],
+    "prescription": "c124f5b5712de7432e058878",
+    "createdAt": "2025-12-23T00:45:54.452045",
+    "updatedAt": "2025-12-23T00:45:54.452045",
+    "deletedAt": null
+  },
+  {
+    "_id": "71d24c89b2da835b312d7729",
+    "appointment_id": "ee4f7f000829e6ccab564c97",
+    "symptoms": [
+      "c24700ba7458ef4c48041815",
+      "1e31f450e737a6cf58c7a330",
+      "aad83b08c1a20c8bdd295f5a",
+      "96e319af6181e81e7b92d8ac"
+    ],
+    "diagnosis": [
+      "39b02fc178988376dba5b24c",
+      "279be6d9f38abadeac9b469d"
+    ],
+    "prescription": "05fe40c8a00e567d05637fca",
+    "createdAt": "2026-02-28T12:57:54.452436",
+    "updatedAt": "2026-02-28T12:57:54.452436",
+    "deletedAt": null
+  },
+  {
+    "_id": "07356e1290b8e9c5be79731d",
+    "appointment_id": "e782b14942de0a56d8305c40",
+    "symptoms": [
+      "8ab4976d4d87449264fcb2aa",
+      "a64b702b5311caea01c808eb",
+      "9658e5d346511676024b8588"
+    ],
+    "diagnosis": [
+      "29e32602c06079b5525252c5",
+      "949310ec46eb8fe407a59210"
+    ],
+    "prescription": "92406172ba2d18d728d3cfc5",
+    "createdAt": "2026-03-18T06:35:54.452434",
+    "updatedAt": "2026-03-18T06:35:54.452434",
+    "deletedAt": null
+  },
+  {
+    "_id": "fcab1867a6489e3a7bb23270",
+    "appointment_id": "fbffbe56d8425fb72cbcd3be",
+    "symptoms": [
+      "a06cb10759b577b60d6ffe65"
+    ],
+    "diagnosis": [
+      "724894a29d317f8c9b8aff3e"
+    ],
+    "prescription": "9ea03a9b4e719dd1ae00a43b",
+    "createdAt": "2026-05-19T12:44:54.452431",
+    "updatedAt": "2026-05-19T12:44:54.452431",
+    "deletedAt": null
+  },
+  {
+    "_id": "2a8203a711d40b3da79c89ea",
+    "appointment_id": "1b5e92c46cbb3703d83e5798",
+    "symptoms": [
+      "f9665b0d558aa020acec0173",
+      "f7500e131a1e28135a4ccf92",
+      "5b6b40fb7deaad7697600f30",
+      "fb88403bccebbfa570069576"
+    ],
+    "diagnosis": [
+      "2ca9037a035580ed227494d5",
+      "688dfd37d669f5dffeada126"
+    ],
+    "prescription": "7b7ae30acd083fa26388967a",
+    "createdAt": "2025-08-31T22:01:54.454181",
+    "updatedAt": "2025-08-31T22:01:54.454181",
+    "deletedAt": null
+  },
+  {
+    "_id": "567782c270ae14f1a8b823f0",
+    "appointment_id": "e4341056bded038466026853",
+    "symptoms": [
+      "a06cb10759b577b60d6ffe65",
+      "12c4c32f32bc221c0d8b5b12",
+      "fb88403bccebbfa570069576"
+    ],
+    "diagnosis": [
+      "dbf08600e2cc1ea88d0b4cae",
+      "578b733d67addfd15c4836a5"
+    ],
+    "prescription": "57c50731d9c08c72b27990b8",
+    "createdAt": "2025-11-01T21:10:54.454177",
+    "updatedAt": "2025-11-01T21:10:54.454177",
+    "deletedAt": null
+  },
+  {
+    "_id": "58fc43ed21a903c07f0c1281",
+    "appointment_id": "b13a9b4f67a9b6db589b4696",
+    "symptoms": [
+      "a64b702b5311caea01c808eb",
+      "c24700ba7458ef4c48041815"
+    ],
+    "diagnosis": [
+      "180d8701c963dfd88013ad1f",
+      "724894a29d317f8c9b8aff3e"
+    ],
+    "prescription": "d24c96a82c0bffbd711d7850",
+    "createdAt": "2026-01-09T13:16:54.454174",
+    "updatedAt": "2026-01-09T13:16:54.454174",
+    "deletedAt": null
+  },
+  {
+    "_id": "544d951326d8960dc5966e21",
+    "appointment_id": "673e84707f6465300ac73d89",
+    "symptoms": [
+      "9658e5d346511676024b8588",
+      "a64b702b5311caea01c808eb",
+      "5b6b40fb7deaad7697600f30"
+    ],
+    "diagnosis": [
+      "578b733d67addfd15c4836a5"
+    ],
+    "prescription": "f40300d9d399aee12a7846e7",
+    "createdAt": "2026-03-21T16:51:54.454179",
+    "updatedAt": "2026-03-21T16:51:54.454179",
+    "deletedAt": null
+  },
+  {
+    "_id": "394adb44a60c4e84c890a83f",
+    "appointment_id": "572708072b3aa5b9938cfd63",
+    "symptoms": [
+      "aad83b08c1a20c8bdd295f5a",
+      "6b7c5b72d01bea429d5438c1",
+      "e9eb4be7e0c1d4de19dc24c5",
+      "e615d75da20587d8a963e511"
+    ],
+    "diagnosis": [
+      "63a6feffa4d11426c5b3df23",
+      "578b733d67addfd15c4836a5"
+    ],
+    "prescription": "aa4966fbae172ca35a3e0009",
+    "createdAt": "2026-02-06T01:42:54.456166",
+    "updatedAt": "2026-02-06T01:42:54.456166",
+    "deletedAt": null
+  },
+  {
+    "_id": "3b6bfb1a6e9ef3e5b90a752e",
+    "appointment_id": "4091a41d8a5ee6cd786e6da7",
+    "symptoms": [
+      "3044785173d5fdb58decadf5"
+    ],
+    "diagnosis": [
+      "180d8701c963dfd88013ad1f"
+    ],
+    "prescription": "c909f2cebe4d910a6e7c49cc",
+    "createdAt": "2025-08-17T10:15:54.456618",
+    "updatedAt": "2025-08-17T10:15:54.456618",
+    "deletedAt": null
+  },
+  {
+    "_id": "8cde52b9ea9d3c97a4acdb11",
+    "appointment_id": "45a47033e4309d95978ca7c5",
+    "symptoms": [
+      "3044785173d5fdb58decadf5",
+      "29dafe3f3d918511052fe255"
+    ],
+    "diagnosis": [
+      "dbf08600e2cc1ea88d0b4cae",
+      "5f67d350e2029f22c74bcd69"
+    ],
+    "prescription": "89954f1075ebeac0ef259991",
+    "createdAt": "2026-05-19T19:05:54.456622",
+    "updatedAt": "2026-05-19T19:05:54.456622",
+    "deletedAt": null
+  },
+  {
+    "_id": "4800c738865a3fe5cf21a9a3",
+    "appointment_id": "5463debe4c1db25787ae57af",
+    "symptoms": [
+      "61106412d9c5789f2c4ebe68",
+      "29dafe3f3d918511052fe255",
+      "e9eb4be7e0c1d4de19dc24c5",
+      "5fc201fec48f81fb0b76e611"
+    ],
+    "diagnosis": [
+      "9c5017b834edb119728ed5cc"
+    ],
+    "prescription": "90c87aba406100e3c4623df1",
+    "createdAt": "2025-07-28T08:36:54.457869",
+    "updatedAt": "2025-07-28T08:36:54.457869",
+    "deletedAt": null
+  },
+  {
+    "_id": "e49f675bc43fbdbdcaad00ad",
+    "appointment_id": "b98bab872295b8dba0184d40",
+    "symptoms": [
+      "e9eb4be7e0c1d4de19dc24c5",
+      "e30781cad1c4a3cf3788c5ff"
+    ],
+    "diagnosis": [
+      "29e32602c06079b5525252c5",
+      "180d8701c963dfd88013ad1f"
+    ],
+    "prescription": "ef92f77eb9103dbf5c91e2a4",
+    "createdAt": "2025-11-13T16:57:54.457866",
+    "updatedAt": "2025-11-13T16:57:54.457866",
+    "deletedAt": null
+  },
+  {
+    "_id": "fd838801171ceb1e27e21c14",
+    "appointment_id": "ff2105332582a609b9cff735",
+    "symptoms": [
+      "3044785173d5fdb58decadf5",
+      "0430d4130cd4e3132df7d836"
+    ],
+    "diagnosis": [
+      "ed009ed43d5090749c48c85c",
+      "415bf413060b556d194fd52c"
+    ],
+    "prescription": "7f6a263aa0e296b042520de2",
+    "createdAt": "2026-02-15T10:08:54.457863",
+    "updatedAt": "2026-02-15T10:08:54.457863",
+    "deletedAt": null
+  },
+  {
+    "_id": "7d66c5db363d1dc766d42de5",
+    "appointment_id": "cc68a9623cef5f7a6a778602",
+    "symptoms": [
+      "5fc201fec48f81fb0b76e611",
+      "e9eb4be7e0c1d4de19dc24c5",
+      "b6994a9513b5776451ab5014"
+    ],
+    "diagnosis": [
+      "c528e2cc544aa01db5bbe72e"
+    ],
+    "prescription": "27648a67d12d95459163c42f",
+    "createdAt": "2025-06-24T10:27:54.459508",
+    "updatedAt": "2025-06-24T10:27:54.459508",
+    "deletedAt": null
+  },
+  {
+    "_id": "22f2cbec2a6597dc651706a4",
+    "appointment_id": "ef1724cd586aaa18e42b221f",
+    "symptoms": [
+      "626fffa77160f78214bd17e5",
+      "1e31f450e737a6cf58c7a330"
+    ],
+    "diagnosis": [
+      "e543103521445265d3d89ab7",
+      "282361da7e769e17a863f299"
+    ],
+    "prescription": "04aab1e06d18436f97f3001c",
+    "createdAt": "2025-09-02T13:20:54.459515",
+    "updatedAt": "2025-09-02T13:20:54.459515",
+    "deletedAt": null
+  },
+  {
+    "_id": "da26c167c2e5dc76a8113445",
+    "appointment_id": "c86ee46c1e952917b7fe1f64",
+    "symptoms": [
+      "a64b702b5311caea01c808eb",
+      "689c51d1a1309f4d860d397b",
+      "fb88403bccebbfa570069576"
+    ],
+    "diagnosis": [
+      "180d8701c963dfd88013ad1f",
+      "949310ec46eb8fe407a59210"
+    ],
+    "prescription": "4bcad4c8e33afb5f6d1552aa",
+    "createdAt": "2026-02-25T06:52:54.460374",
+    "updatedAt": "2026-02-25T06:52:54.460374",
+    "deletedAt": null
+  },
+  {
+    "_id": "4b17174fa54f099912f521f4",
+    "appointment_id": "028a8a8e27d8d5d68ef7b7f1",
+    "symptoms": [
+      "f7500e131a1e28135a4ccf92",
+      "3044785173d5fdb58decadf5",
+      "6adf6829f1e1bf9981f11522"
+    ],
+    "diagnosis": [
+      "282361da7e769e17a863f299"
+    ],
+    "prescription": "048a84e04daad763a349215d",
+    "createdAt": "2025-07-06T20:28:54.460708",
+    "updatedAt": "2025-07-06T20:28:54.460708",
+    "deletedAt": null
+  },
+  {
+    "_id": "61c0f9e5882007a8ef8b6f0b",
+    "appointment_id": "e8debb4eaf7b56fe2964eede",
+    "symptoms": [
+      "6b7c5b72d01bea429d5438c1",
+      "e9eb4be7e0c1d4de19dc24c5",
+      "a64b702b5311caea01c808eb",
+      "b6994a9513b5776451ab5014"
+    ],
+    "diagnosis": [
+      "724894a29d317f8c9b8aff3e",
+      "6ab9f1165323a4ae0cc312f7"
+    ],
+    "prescription": "2b0f9ea291751a191240cf84",
+    "createdAt": "2025-08-04T23:21:54.460713",
+    "updatedAt": "2025-08-04T23:21:54.460713",
+    "deletedAt": null
+  },
+  {
+    "_id": "4019609543cc8c98bbcc07d0",
+    "appointment_id": "c7877caff5a995a80e4208e8",
+    "symptoms": [
+      "5b6b40fb7deaad7697600f30",
+      "a64b702b5311caea01c808eb",
+      "689c51d1a1309f4d860d397b"
+    ],
+    "diagnosis": [
+      "39b02fc178988376dba5b24c",
+      "dbf08600e2cc1ea88d0b4cae"
+    ],
+    "prescription": "69c32189d42533915b398673",
+    "createdAt": "2026-01-16T19:08:54.460710",
+    "updatedAt": "2026-01-16T19:08:54.460710",
+    "deletedAt": null
+  },
+  {
+    "_id": "d2f6108bb701bd19484db4f3",
+    "appointment_id": "367afffe38a855a549c3abef",
+    "symptoms": [
+      "e615d75da20587d8a963e511",
+      "96e319af6181e81e7b92d8ac"
+    ],
+    "diagnosis": [
+      "282361da7e769e17a863f299",
+      "b1fcfd309041fc8f8cc4f305"
+    ],
+    "prescription": "d068f96f5058ca64ade75b29",
+    "createdAt": "2026-02-28T06:03:54.460704",
+    "updatedAt": "2026-02-28T06:03:54.460704",
+    "deletedAt": null
+  },
+  {
+    "_id": "5b67bdf1ae2c4d04e02184bb",
+    "appointment_id": "440b3398f08ad1a7c5a8b897",
+    "symptoms": [
+      "61106412d9c5789f2c4ebe68"
+    ],
+    "diagnosis": [
+      "e543103521445265d3d89ab7"
+    ],
+    "prescription": "93caf9aaadd14daf4b3963cd",
+    "createdAt": "2026-05-11T15:47:54.460715",
+    "updatedAt": "2026-05-11T15:47:54.460715",
+    "deletedAt": null
+  },
+  {
+    "_id": "71a0f50cbaa7f831de100718",
+    "appointment_id": "97e4f460e8434d4c5b30175b",
+    "symptoms": [
+      "e615d75da20587d8a963e511",
+      "b6994a9513b5776451ab5014"
+    ],
+    "diagnosis": [
+      "279be6d9f38abadeac9b469d",
+      "f3d713211871c850ac774d3a"
+    ],
+    "prescription": "b1b1fdfc53ecbb990a5c702c",
+    "createdAt": "2025-08-12T08:46:54.462973",
+    "updatedAt": "2025-08-12T08:46:54.462973",
+    "deletedAt": null
+  },
+  {
+    "_id": "46b1aaa4c3f10eaed126758f",
+    "appointment_id": "1530c87050485584bb61a976",
+    "symptoms": [
+      "f7500e131a1e28135a4ccf92",
+      "271b9386be8b49f87a5ccb6d",
+      "c24700ba7458ef4c48041815"
+    ],
+    "diagnosis": [
+      "be9de875127b2a06ad52b48b"
+    ],
+    "prescription": "2b62acb84dc603609d9f6dd6",
+    "createdAt": "2025-10-10T14:20:54.462969",
+    "updatedAt": "2025-10-10T14:20:54.462969",
+    "deletedAt": null
+  },
+  {
+    "_id": "afd2ad03298f8db85b483ca6",
+    "appointment_id": "a813fbf4a549537a56511ec2",
+    "symptoms": [
+      "5b6b40fb7deaad7697600f30",
+      "a64b702b5311caea01c808eb",
+      "b6994a9513b5776451ab5014",
+      "8ab4976d4d87449264fcb2aa"
+    ],
+    "diagnosis": [
+      "6ab9f1165323a4ae0cc312f7",
+      "2c7d5010bac4b773348e4d1c"
+    ],
+    "prescription": "3cfc75e35e6abde6d15028f0",
+    "createdAt": "2025-10-11T21:11:54.462976",
+    "updatedAt": "2025-10-11T21:11:54.462976",
+    "deletedAt": null
+  },
+  {
+    "_id": "471090105b81b91c38bb405e",
+    "appointment_id": "c651e3ae272c944195083483",
+    "symptoms": [
+      "6adf6829f1e1bf9981f11522"
+    ],
+    "diagnosis": [
+      "39b02fc178988376dba5b24c",
+      "5f67d350e2029f22c74bcd69"
+    ],
+    "prescription": "b556cd442e770d2cbbd3c2a1",
+    "createdAt": "2025-10-25T07:39:54.462965",
+    "updatedAt": "2025-10-25T07:39:54.462965",
+    "deletedAt": null
+  },
+  {
+    "_id": "779ae10667d7958c01676446",
+    "appointment_id": "e1277d6afe1c1b3a84d89c3a",
+    "symptoms": [
+      "29dafe3f3d918511052fe255",
+      "f7500e131a1e28135a4ccf92"
+    ],
+    "diagnosis": [
+      "dbf08600e2cc1ea88d0b4cae"
+    ],
+    "prescription": "6c81b6747c1fa7b00e9a01ef",
+    "createdAt": "2025-11-17T11:22:54.462971",
+    "updatedAt": "2025-11-17T11:22:54.462971",
+    "deletedAt": null
+  },
+  {
+    "_id": "dc2e60b7f3e57c0b8610adeb",
+    "appointment_id": "8bfbf01d8e50b4f259c272fc",
+    "symptoms": [
+      "1f8b3d2e5bed3adf827139ce",
+      "0430d4130cd4e3132df7d836",
+      "f7500e131a1e28135a4ccf92"
+    ],
+    "diagnosis": [
+      "39b02fc178988376dba5b24c"
+    ],
+    "prescription": "c089ad4eb8996f77bd4f1b0b",
+    "createdAt": "2025-08-18T08:31:54.465240",
+    "updatedAt": "2025-08-18T08:31:54.465240",
+    "deletedAt": null
+  },
+  {
+    "_id": "28a31b7f21356b6afce0d34a",
+    "appointment_id": "f4acf45c28cf57ac32a5ba3e",
+    "symptoms": [
+      "689c51d1a1309f4d860d397b",
+      "b6994a9513b5776451ab5014"
+    ],
+    "diagnosis": [
+      "5f67d350e2029f22c74bcd69"
+    ],
+    "prescription": "650f31bb0f660f1704c9cf6c",
+    "createdAt": "2025-08-27T23:34:54.465233",
+    "updatedAt": "2025-08-27T23:34:54.465233",
+    "deletedAt": null
+  },
+  {
+    "_id": "629436ecf204002407a7a190",
+    "appointment_id": "9339cd2b2c1f2d49bf2a2c4a",
+    "symptoms": [
+      "626fffa77160f78214bd17e5",
+      "5fc201fec48f81fb0b76e611"
+    ],
+    "diagnosis": [
+      "2ca9037a035580ed227494d5",
+      "6ab9f1165323a4ae0cc312f7"
+    ],
+    "prescription": "aae3ef6174bd4285876a6247",
+    "createdAt": "2026-02-15T07:24:54.465237",
+    "updatedAt": "2026-02-15T07:24:54.465237",
+    "deletedAt": null
+  },
+  {
+    "_id": "b2a3980dafefd7f7d41b9384",
+    "appointment_id": "8f6c809baa0807ac282b045a",
+    "symptoms": [
+      "14a09354da15a0b59d0b6307",
+      "96e319af6181e81e7b92d8ac"
+    ],
+    "diagnosis": [
+      "180d8701c963dfd88013ad1f",
+      "688dfd37d669f5dffeada126"
+    ],
+    "prescription": "192b3030f5acd6d87b2dd04a",
+    "createdAt": "2026-05-09T15:15:54.468114",
+    "updatedAt": "2026-05-09T15:15:54.468114",
+    "deletedAt": null
+  },
+  {
+    "_id": "8a9c1c4d3705abd060c07f9a",
+    "appointment_id": "0a4e0f01fdb6aa193019db4f",
+    "symptoms": [
+      "e30781cad1c4a3cf3788c5ff",
+      "fb88403bccebbfa570069576",
+      "8a790070ce08aed3d45ae3ff",
+      "b6994a9513b5776451ab5014"
+    ],
+    "diagnosis": [
+      "949310ec46eb8fe407a59210",
+      "be9de875127b2a06ad52b48b"
+    ],
+    "prescription": "345b68b217e7c4f6826625c2",
+    "createdAt": "2025-09-15T05:59:54.468537",
+    "updatedAt": "2025-09-15T05:59:54.468537",
+    "deletedAt": null
+  },
+  {
+    "_id": "e05a6e8e260ea6c74774ddf8",
+    "appointment_id": "d732ecd063a6085fd0e07b29",
+    "symptoms": [
+      "1f8b3d2e5bed3adf827139ce",
+      "a06cb10759b577b60d6ffe65",
+      "1e31f450e737a6cf58c7a330"
+    ],
+    "diagnosis": [
+      "6ab9f1165323a4ae0cc312f7"
+    ],
+    "prescription": "0e0ea3fab6782b8603e002e3",
+    "createdAt": "2025-10-31T15:27:54.468534",
+    "updatedAt": "2025-10-31T15:27:54.468534",
+    "deletedAt": null
+  },
+  {
+    "_id": "e52e9e4bfcdb75a539eae419",
+    "appointment_id": "ac2ab1d6423c075ba138674e",
+    "symptoms": [
+      "a64b702b5311caea01c808eb",
+      "6b7c5b72d01bea429d5438c1"
+    ],
+    "diagnosis": [
+      "949310ec46eb8fe407a59210"
+    ],
+    "prescription": "8d621c7db4dc99408db6d889",
+    "createdAt": "2026-01-08T04:24:54.468544",
+    "updatedAt": "2026-01-08T04:24:54.468544",
+    "deletedAt": null
+  },
+  {
+    "_id": "5072a5c2c3d535afea37d145",
+    "appointment_id": "eb345a138355afa56ae554be",
+    "symptoms": [
+      "96e319af6181e81e7b92d8ac",
+      "e9eb4be7e0c1d4de19dc24c5",
+      "12c4c32f32bc221c0d8b5b12"
+    ],
+    "diagnosis": [
+      "415bf413060b556d194fd52c"
+    ],
+    "prescription": "e728da643f2726c57e94a809",
+    "createdAt": "2026-01-13T00:37:54.468542",
+    "updatedAt": "2026-01-13T00:37:54.468542",
+    "deletedAt": null
+  },
+  {
+    "_id": "986980796fad1ff838a41fc6",
+    "appointment_id": "08886492b29226d1b42c7fd0",
+    "symptoms": [
+      "8a790070ce08aed3d45ae3ff"
+    ],
+    "diagnosis": [
+      "e543103521445265d3d89ab7"
+    ],
+    "prescription": "4766e649f944269aa9acf828",
+    "createdAt": "2026-05-12T07:11:54.468539",
+    "updatedAt": "2026-05-12T07:11:54.468539",
+    "deletedAt": null
+  },
+  {
+    "_id": "3e4bf35eae68466a9c92c18d",
+    "appointment_id": "fefd277c7f4e5d53987c0dd4",
+    "symptoms": [
+      "29dafe3f3d918511052fe255",
+      "a64b702b5311caea01c808eb",
+      "9658e5d346511676024b8588"
+    ],
+    "diagnosis": [
+      "9c5017b834edb119728ed5cc"
+    ],
+    "prescription": "4be002f2ddb01bd1bd33ea22",
+    "createdAt": "2025-09-19T05:23:54.471179",
+    "updatedAt": "2025-09-19T05:23:54.471179",
+    "deletedAt": null
+  },
+  {
+    "_id": "bc5bbf9bb05d1d14d54c0322",
+    "appointment_id": "2b145495a01c67ed885191dd",
+    "symptoms": [
+      "8ab4976d4d87449264fcb2aa"
+    ],
+    "diagnosis": [
+      "5f67d350e2029f22c74bcd69",
+      "39b02fc178988376dba5b24c"
+    ],
+    "prescription": "16c70aac0f6a8fdb89f80315",
+    "createdAt": "2026-02-06T01:49:54.471182",
+    "updatedAt": "2026-02-06T01:49:54.471182",
+    "deletedAt": null
+  },
+  {
+    "_id": "73e94320441a8ab24d8f64f5",
+    "appointment_id": "a6c88adb4a986d6479fec942",
+    "symptoms": [
+      "8ab4976d4d87449264fcb2aa",
+      "689c51d1a1309f4d860d397b"
+    ],
+    "diagnosis": [
+      "63a6feffa4d11426c5b3df23",
+      "9c5017b834edb119728ed5cc"
+    ],
+    "prescription": "620bd9f4bce9df510ceb3c63",
+    "createdAt": "2026-04-05T14:13:54.471176",
+    "updatedAt": "2026-04-05T14:13:54.471176",
+    "deletedAt": null
+  },
+  {
+    "_id": "3742f8bcade5691ecbef37c3",
+    "appointment_id": "2600afc5dbe01513ae3b7443",
+    "symptoms": [
+      "626fffa77160f78214bd17e5",
+      "e9eb4be7e0c1d4de19dc24c5",
+      "fb88403bccebbfa570069576"
+    ],
+    "diagnosis": [
+      "f3d713211871c850ac774d3a",
+      "39b02fc178988376dba5b24c"
+    ],
+    "prescription": "422a97c306d5232959479bf8",
+    "createdAt": "2026-01-04T23:01:54.473394",
+    "updatedAt": "2026-01-04T23:01:54.473394",
+    "deletedAt": null
+  },
+  {
+    "_id": "1097defd79bba86f968e0609",
+    "appointment_id": "f32f116de47f9d57a1dfb905",
+    "symptoms": [
+      "aad83b08c1a20c8bdd295f5a",
+      "61106412d9c5789f2c4ebe68",
+      "f7500e131a1e28135a4ccf92"
+    ],
+    "diagnosis": [
+      "ed009ed43d5090749c48c85c"
+    ],
+    "prescription": "b66464b32abe5a9c4deaa9b6",
+    "createdAt": "2026-04-06T10:13:54.473391",
+    "updatedAt": "2026-04-06T10:13:54.473391",
+    "deletedAt": null
+  },
+  {
+    "_id": "943a2829e0d49dfdc6e21fff",
+    "appointment_id": "3f5a3f480a6a6df5535bcf32",
+    "symptoms": [
+      "6adf6829f1e1bf9981f11522",
+      "e30781cad1c4a3cf3788c5ff",
+      "96e319af6181e81e7b92d8ac",
+      "ae9cc02bf670a4b53f66944a"
+    ],
+    "diagnosis": [
+      "39b02fc178988376dba5b24c"
+    ],
+    "prescription": "a826a1f7016d8f24ac0fdf35",
+    "createdAt": "2025-06-24T21:48:54.474667",
+    "updatedAt": "2025-06-24T21:48:54.474667",
+    "deletedAt": null
+  },
+  {
+    "_id": "4a5beb82f2ddb119615eded5",
+    "appointment_id": "dc95094637207aa4bebc7133",
+    "symptoms": [
+      "5b6b40fb7deaad7697600f30",
+      "f9665b0d558aa020acec0173"
+    ],
+    "diagnosis": [
+      "be9de875127b2a06ad52b48b"
+    ],
+    "prescription": "92cd05455dfea9416dd075b5",
+    "createdAt": "2025-07-27T07:39:54.474676",
+    "updatedAt": "2025-07-27T07:39:54.474676",
+    "deletedAt": null
+  },
+  {
+    "_id": "7be0e4f0d0553aeafc5dc2c1",
+    "appointment_id": "33906d2df28df047bb370279",
+    "symptoms": [
+      "96e319af6181e81e7b92d8ac"
+    ],
+    "diagnosis": [
+      "b1fcfd309041fc8f8cc4f305"
+    ],
+    "prescription": "7b512851ad679939f9d7efa8",
+    "createdAt": "2025-08-16T04:30:54.474671",
+    "updatedAt": "2025-08-16T04:30:54.474671",
+    "deletedAt": null
+  },
+  {
+    "_id": "741b38701b82fed859312363",
+    "appointment_id": "37caa529f39ee51ab8e0bd2a",
+    "symptoms": [
+      "e9eb4be7e0c1d4de19dc24c5"
+    ],
+    "diagnosis": [
+      "415bf413060b556d194fd52c",
+      "72a57ef953c4abd9ff7a0bf6"
+    ],
+    "prescription": "b0913a1a8477b68675ead925",
+    "createdAt": "2025-10-23T01:28:54.474679",
+    "updatedAt": "2025-10-23T01:28:54.474679",
+    "deletedAt": null
+  },
+  {
+    "_id": "28c800b7ba72d331ba12bf1e",
+    "appointment_id": "abd92ef4bdb70df300fc09f5",
+    "symptoms": [
+      "e9eb4be7e0c1d4de19dc24c5",
+      "fc30024453f3e4aa4282c6d8",
+      "3044785173d5fdb58decadf5"
+    ],
+    "diagnosis": [
+      "279be6d9f38abadeac9b469d",
+      "282361da7e769e17a863f299"
+    ],
+    "prescription": "da6bfc7e50735035ade4484e",
+    "createdAt": "2026-06-04T00:25:54.474674",
+    "updatedAt": "2026-06-04T00:25:54.474674",
+    "deletedAt": null
+  },
+  {
+    "_id": "4ed78b01f6a57255261b796d",
+    "appointment_id": "230081edc43acbb01e105da1",
+    "symptoms": [
+      "1e31f450e737a6cf58c7a330"
+    ],
+    "diagnosis": [
+      "180d8701c963dfd88013ad1f",
+      "b8681607d3ea5f0922694598"
+    ],
+    "prescription": "ce4ed0c1fea9ae0c34d3f4f5",
+    "createdAt": "2025-07-08T09:56:54.476908",
+    "updatedAt": "2025-07-08T09:56:54.476908",
+    "deletedAt": null
+  },
+  {
+    "_id": "0480ba46a952d1805b534771",
+    "appointment_id": "8f04accfb01db78a84f27aac",
+    "symptoms": [
+      "6b7c5b72d01bea429d5438c1",
+      "96e319af6181e81e7b92d8ac",
+      "f7500e131a1e28135a4ccf92",
+      "8a790070ce08aed3d45ae3ff"
+    ],
+    "diagnosis": [
+      "578b733d67addfd15c4836a5",
+      "279be6d9f38abadeac9b469d"
+    ],
+    "prescription": "d589331ca4075f47ec9fe1fe",
+    "createdAt": "2025-07-17T06:28:54.476910",
+    "updatedAt": "2025-07-17T06:28:54.476910",
+    "deletedAt": null
+  },
+  {
+    "_id": "ee2055504c6e7cb7f0dade9f",
+    "appointment_id": "42a74a9d9ed84a8ffa9d4769",
+    "symptoms": [
+      "5fc201fec48f81fb0b76e611",
+      "6b7c5b72d01bea429d5438c1"
+    ],
+    "diagnosis": [
+      "578b733d67addfd15c4836a5"
+    ],
+    "prescription": "a00d02c5d661590224c54eac",
+    "createdAt": "2025-11-17T05:23:54.476912",
+    "updatedAt": "2025-11-17T05:23:54.476912",
+    "deletedAt": null
+  },
+  {
+    "_id": "56bb48dd35bfbb17d5ce2612",
+    "appointment_id": "e9fccf7cb9a8e2177746d4f1",
+    "symptoms": [
+      "0430d4130cd4e3132df7d836"
+    ],
+    "diagnosis": [
+      "b8681607d3ea5f0922694598"
+    ],
+    "prescription": "80ef8998ef1435792ea5c734",
+    "createdAt": "2026-02-08T23:07:54.476905",
+    "updatedAt": "2026-02-08T23:07:54.476905",
+    "deletedAt": null
+  },
+  {
+    "_id": "20311f49b114978dd6edb62e",
+    "appointment_id": "026b200ffe4171ba1ce96e2c",
+    "symptoms": [
+      "fc30024453f3e4aa4282c6d8",
+      "626fffa77160f78214bd17e5",
+      "6adf6829f1e1bf9981f11522",
+      "9658e5d346511676024b8588"
+    ],
+    "diagnosis": [
+      "ef67dce6e07e652036fba8bb",
+      "279be6d9f38abadeac9b469d"
+    ],
+    "prescription": "3fc29a248011eb85833911e1",
+    "createdAt": "2026-03-02T23:53:54.476902",
+    "updatedAt": "2026-03-02T23:53:54.476902",
+    "deletedAt": null
+  },
+  {
+    "_id": "c9ecc138c0294dce5a4c40ea",
+    "appointment_id": "ac8ab6434295d2aba0c10526",
+    "symptoms": [
+      "3044785173d5fdb58decadf5"
+    ],
+    "diagnosis": [
+      "39b02fc178988376dba5b24c"
+    ],
+    "prescription": "6803dbb3984ab841a6dfebcc",
+    "createdAt": "2025-08-24T19:08:54.478674",
+    "updatedAt": "2025-08-24T19:08:54.478674",
+    "deletedAt": null
+  },
+  {
+    "_id": "e94cb186983072f1f6c620c8",
+    "appointment_id": "901c52a7ea976a6fec643d99",
+    "symptoms": [
+      "db9f9838d74521217eb55a3c",
+      "ae9cc02bf670a4b53f66944a",
+      "626fffa77160f78214bd17e5",
+      "14a09354da15a0b59d0b6307"
+    ],
+    "diagnosis": [
+      "e543103521445265d3d89ab7",
+      "29e32602c06079b5525252c5"
+    ],
+    "prescription": "ce9a893ed32857d554beba84",
+    "createdAt": "2026-01-05T11:38:54.478668",
+    "updatedAt": "2026-01-05T11:38:54.478668",
+    "deletedAt": null
+  },
+  {
+    "_id": "6b5e7b17b3a0adc708c26bff",
+    "appointment_id": "71e8408c561fa967bb7d501e",
+    "symptoms": [
+      "f9665b0d558aa020acec0173",
+      "271b9386be8b49f87a5ccb6d",
+      "db9f9838d74521217eb55a3c"
+    ],
+    "diagnosis": [
+      "e543103521445265d3d89ab7"
+    ],
+    "prescription": "a59968ccce74b4275482025e",
+    "createdAt": "2026-02-06T01:47:54.478671",
+    "updatedAt": "2026-02-06T01:47:54.478671",
+    "deletedAt": null
+  },
+  {
+    "_id": "8c9b24dadeb43c56fc4a299a",
+    "appointment_id": "479232fb665561d2b35ab166",
+    "symptoms": [
+      "aad83b08c1a20c8bdd295f5a",
+      "e9eb4be7e0c1d4de19dc24c5"
+    ],
+    "diagnosis": [
+      "b21bb49c1f6ad20b86de0039",
+      "39b02fc178988376dba5b24c"
+    ],
+    "prescription": "d7cde8deab32d6ef9f1b51f4",
+    "createdAt": "2025-06-19T08:36:54.479850",
+    "updatedAt": "2025-06-19T08:36:54.479850",
+    "deletedAt": null
+  },
+  {
+    "_id": "4fc157d8e187e948bc48aa40",
+    "appointment_id": "ccc8ddb1bb945ca6bb159abf",
+    "symptoms": [
+      "0430d4130cd4e3132df7d836",
+      "a06cb10759b577b60d6ffe65",
+      "96e319af6181e81e7b92d8ac"
+    ],
+    "diagnosis": [
+      "9c5017b834edb119728ed5cc",
+      "b21bb49c1f6ad20b86de0039"
+    ],
+    "prescription": "702a6a0d69fc66489a4e4913",
+    "createdAt": "2025-10-21T16:04:54.479853",
+    "updatedAt": "2025-10-21T16:04:54.479853",
+    "deletedAt": null
+  },
+  {
+    "_id": "43e626322175f9ff0876b9a2",
+    "appointment_id": "a49700f98e55449be91f1c27",
+    "symptoms": [
+      "14a09354da15a0b59d0b6307",
+      "aad83b08c1a20c8bdd295f5a",
+      "f7500e131a1e28135a4ccf92"
+    ],
+    "diagnosis": [
+      "b8681607d3ea5f0922694598"
+    ],
+    "prescription": "4ae77be74c0553c83a75fd22",
+    "createdAt": "2026-02-10T17:44:54.479855",
+    "updatedAt": "2026-02-10T17:44:54.479855",
+    "deletedAt": null
+  },
+  {
+    "_id": "1b541d093dbd38ac07bb10d8",
+    "appointment_id": "118b65dc8a540daa7d3c8d70",
+    "symptoms": [
+      "e9eb4be7e0c1d4de19dc24c5"
+    ],
+    "diagnosis": [
+      "9c5017b834edb119728ed5cc"
+    ],
+    "prescription": "90a9e8184dbca88740d7260a",
+    "createdAt": "2026-05-30T23:34:54.479848",
+    "updatedAt": "2026-05-30T23:34:54.479848",
+    "deletedAt": null
+  },
+  {
+    "_id": "1495991d2d16ce66e0161eea",
+    "appointment_id": "a63c04b9305cd4fe461e8996",
+    "symptoms": [
+      "fb88403bccebbfa570069576",
+      "6b7c5b72d01bea429d5438c1"
+    ],
+    "diagnosis": [
+      "5d80d63d219aff5983610ca2",
+      "be9de875127b2a06ad52b48b"
+    ],
+    "prescription": "5066eda068905737facb48e2",
+    "createdAt": "2025-07-03T22:02:54.481884",
+    "updatedAt": "2025-07-03T22:02:54.481884",
+    "deletedAt": null
+  },
+  {
+    "_id": "b1dcd34dbe231ddf16e86dab",
+    "appointment_id": "bea4e3570f592fd2dc1d1b1e",
+    "symptoms": [
+      "fc30024453f3e4aa4282c6d8",
+      "aad83b08c1a20c8bdd295f5a",
+      "db9f9838d74521217eb55a3c"
+    ],
+    "diagnosis": [
+      "578b733d67addfd15c4836a5",
+      "688dfd37d669f5dffeada126"
+    ],
+    "prescription": "2181f238033666dd141694bc",
+    "createdAt": "2025-10-13T04:47:54.481881",
+    "updatedAt": "2025-10-13T04:47:54.481881",
+    "deletedAt": null
+  },
+  {
+    "_id": "29ddfe1ed4145132d6f27c0b",
+    "appointment_id": "affbba155251d80efba69abb",
+    "symptoms": [
+      "c24700ba7458ef4c48041815",
+      "6b7c5b72d01bea429d5438c1"
+    ],
+    "diagnosis": [
+      "63a6feffa4d11426c5b3df23",
+      "2ca9037a035580ed227494d5"
+    ],
+    "prescription": "3de918ae4eda8f4eb66dab0d",
+    "createdAt": "2025-10-14T03:01:54.481888",
+    "updatedAt": "2025-10-14T03:01:54.481888",
+    "deletedAt": null
+  },
+  {
+    "_id": "efe634daed96759ba835a3c5",
+    "appointment_id": "e4ecb057be63d9635a3d16a7",
+    "symptoms": [
+      "6adf6829f1e1bf9981f11522",
+      "1f8b3d2e5bed3adf827139ce",
+      "f7500e131a1e28135a4ccf92"
+    ],
+    "diagnosis": [
+      "29e32602c06079b5525252c5"
+    ],
+    "prescription": "390ffa947200f9402368b570",
+    "createdAt": "2025-11-11T18:45:54.481891",
+    "updatedAt": "2025-11-11T18:45:54.481891",
+    "deletedAt": null
+  },
+  {
+    "_id": "726d5d385834d47e2859d66f",
+    "appointment_id": "d7361fd69b323f16db4dec3c",
+    "symptoms": [
+      "e615d75da20587d8a963e511",
+      "689c51d1a1309f4d860d397b",
+      "a64b702b5311caea01c808eb",
+      "271b9386be8b49f87a5ccb6d"
+    ],
+    "diagnosis": [
+      "180d8701c963dfd88013ad1f"
+    ],
+    "prescription": "a8a803f72031badb86d59a00",
+    "createdAt": "2026-01-24T16:40:54.481886",
+    "updatedAt": "2026-01-24T16:40:54.481886",
+    "deletedAt": null
+  },
+  {
+    "_id": "5527d244cfb2b952eff64501",
+    "appointment_id": "300720721dc3d886572dd40e",
+    "symptoms": [
+      "1f8b3d2e5bed3adf827139ce"
+    ],
+    "diagnosis": [
+      "5f67d350e2029f22c74bcd69",
+      "ed009ed43d5090749c48c85c"
+    ],
+    "prescription": "0b2f8a31b517ca710a907fe9",
+    "createdAt": "2025-10-21T21:46:54.484361",
+    "updatedAt": "2025-10-21T21:46:54.484361",
+    "deletedAt": null
+  },
+  {
+    "_id": "199868d5a8374e16f2c5857d",
+    "appointment_id": "00ccfd096cd02b199880543b",
+    "symptoms": [
+      "14a09354da15a0b59d0b6307",
+      "c24700ba7458ef4c48041815",
+      "64b99ee56f27770928bae4ca",
+      "f7500e131a1e28135a4ccf92"
+    ],
+    "diagnosis": [
+      "282361da7e769e17a863f299",
+      "72a57ef953c4abd9ff7a0bf6"
+    ],
+    "prescription": "514e31173309da5b973142e6",
+    "createdAt": "2026-05-18T22:06:54.484365",
+    "updatedAt": "2026-05-18T22:06:54.484365",
+    "deletedAt": null
+  },
+  {
+    "_id": "086f0670602558e58c0230c0",
+    "appointment_id": "bb24cba78cfd6bf1304b4e29",
+    "symptoms": [
+      "1e31f450e737a6cf58c7a330"
+    ],
+    "diagnosis": [
+      "578b733d67addfd15c4836a5"
+    ],
+    "prescription": "14c7f6d4e76d6ec4f1896714",
+    "createdAt": "2025-12-08T23:11:54.485352",
+    "updatedAt": "2025-12-08T23:11:54.485352",
+    "deletedAt": null
+  },
+  {
+    "_id": "19e82033e94f324b00abd4c6",
+    "appointment_id": "20f375d349cd676ec71904ec",
+    "symptoms": [
+      "8ab4976d4d87449264fcb2aa",
+      "e30781cad1c4a3cf3788c5ff"
+    ],
+    "diagnosis": [
+      "2ca9037a035580ed227494d5",
+      "949310ec46eb8fe407a59210"
+    ],
+    "prescription": "ecc43d86a41150cebea42320",
+    "createdAt": "2026-06-01T22:33:54.485349",
+    "updatedAt": "2026-06-01T22:33:54.485349",
+    "deletedAt": null
+  },
+  {
+    "_id": "1df26a6ca007b5e0d88fe745",
+    "appointment_id": "e0f05b108fd261232c60e460",
+    "symptoms": [
+      "a64b702b5311caea01c808eb",
+      "acc523f3c257a78de6451989"
+    ],
+    "diagnosis": [
+      "5f67d350e2029f22c74bcd69"
+    ],
+    "prescription": "5e90fadf5a3647bc69ff4e8d",
+    "createdAt": "2025-08-01T22:55:54.485981",
+    "updatedAt": "2025-08-01T22:55:54.485981",
+    "deletedAt": null
+  },
+  {
+    "_id": "9acba63a4b6afd29e609b167",
+    "appointment_id": "2bd875c5b05f28146ac43a9a",
+    "symptoms": [
+      "5b6b40fb7deaad7697600f30"
+    ],
+    "diagnosis": [
+      "f3d713211871c850ac774d3a",
+      "415bf413060b556d194fd52c"
+    ],
+    "prescription": "562c403b59d6e9f92040a42c",
+    "createdAt": "2025-08-08T08:32:54.485986",
+    "updatedAt": "2025-08-08T08:32:54.485986",
+    "deletedAt": null
+  },
+  {
+    "_id": "e96f39c11e478ae7331d63ec",
+    "appointment_id": "416bbc62684e4e99f57d5d30",
+    "symptoms": [
+      "1e31f450e737a6cf58c7a330",
+      "acc523f3c257a78de6451989"
+    ],
+    "diagnosis": [
+      "a6470eb837407b46fdd31f04",
+      "39b02fc178988376dba5b24c"
+    ],
+    "prescription": "80e7f714bcbdef5796843dcc",
+    "createdAt": "2025-09-08T12:48:54.485988",
+    "updatedAt": "2025-09-08T12:48:54.485988",
+    "deletedAt": null
+  },
+  {
+    "_id": "037f1a98c95ea9f759997c66",
+    "appointment_id": "7db205b9cb16374ac10ac0e9",
+    "symptoms": [
+      "0430d4130cd4e3132df7d836",
+      "8ab4976d4d87449264fcb2aa",
+      "64b99ee56f27770928bae4ca",
+      "c24700ba7458ef4c48041815"
+    ],
+    "diagnosis": [
+      "578b733d67addfd15c4836a5"
+    ],
+    "prescription": "e4e491fb32e3cedc82074cc5",
+    "createdAt": "2025-10-11T22:02:54.485983",
+    "updatedAt": "2025-10-11T22:02:54.485983",
+    "deletedAt": null
+  },
+  {
+    "_id": "e512975ac298a39e114b70b6",
+    "appointment_id": "c636b5cf6bbbe3b6a363c4c8",
+    "symptoms": [
+      "aad83b08c1a20c8bdd295f5a"
+    ],
+    "diagnosis": [
+      "5d80d63d219aff5983610ca2"
+    ],
+    "prescription": "7833e16c441f862a06e12a50",
+    "createdAt": "2026-03-01T18:31:54.485978",
+    "updatedAt": "2026-03-01T18:31:54.485978",
+    "deletedAt": null
+  },
+  {
+    "_id": "4d0b33b2c4b7e5da45b97994",
+    "appointment_id": "5c28d6c4fcdd1e2389da9cb3",
+    "symptoms": [
+      "5fc201fec48f81fb0b76e611",
+      "12c4c32f32bc221c0d8b5b12",
+      "aad83b08c1a20c8bdd295f5a"
+    ],
+    "diagnosis": [
+      "c528e2cc544aa01db5bbe72e",
+      "ef67dce6e07e652036fba8bb"
+    ],
+    "prescription": "e66c84a3682fa458c531a3f3",
+    "createdAt": "2025-09-10T08:32:54.487992",
+    "updatedAt": "2025-09-10T08:32:54.487992",
+    "deletedAt": null
+  },
+  {
+    "_id": "eefe51066da4df0c8c570548",
+    "appointment_id": "b37c87b3c8262a1c3344666d",
+    "symptoms": [
+      "689c51d1a1309f4d860d397b"
+    ],
+    "diagnosis": [
+      "a6470eb837407b46fdd31f04",
+      "279be6d9f38abadeac9b469d"
+    ],
+    "prescription": "aea1ad02c13395084df67e15",
+    "createdAt": "2026-04-01T03:06:54.487997",
+    "updatedAt": "2026-04-01T03:06:54.487997",
+    "deletedAt": null
+  },
+  {
+    "_id": "2c8e169e4ce912c2cec9236f",
+    "appointment_id": "88c416c87d3d0797bea2d3aa",
+    "symptoms": [
+      "fb88403bccebbfa570069576",
+      "fc30024453f3e4aa4282c6d8",
+      "6adf6829f1e1bf9981f11522",
+      "ae9cc02bf670a4b53f66944a"
+    ],
+    "diagnosis": [
+      "39b02fc178988376dba5b24c",
+      "e543103521445265d3d89ab7"
+    ],
+    "prescription": "573448d96f4fc4399cd20f5a",
+    "createdAt": "2026-04-25T01:02:54.487995",
+    "updatedAt": "2026-04-25T01:02:54.487995",
+    "deletedAt": null
+  },
+  {
+    "_id": "9cdf857d85e081041a39f413",
+    "appointment_id": "e7c9c350a273f46e24c0769c",
+    "symptoms": [
+      "271b9386be8b49f87a5ccb6d",
+      "96e319af6181e81e7b92d8ac",
+      "5fc201fec48f81fb0b76e611"
+    ],
+    "diagnosis": [
+      "688dfd37d669f5dffeada126",
+      "b8681607d3ea5f0922694598"
+    ],
+    "prescription": "44f35636bb5a2a4bb12603c2",
+    "createdAt": "2026-04-26T13:49:54.487987",
+    "updatedAt": "2026-04-26T13:49:54.487987",
+    "deletedAt": null
+  },
+  {
+    "_id": "933d0a67f9f0c37386a78ee5",
+    "appointment_id": "207bfe2262fdebf276dd043a",
+    "symptoms": [
+      "29dafe3f3d918511052fe255",
+      "b6994a9513b5776451ab5014"
+    ],
+    "diagnosis": [
+      "72a57ef953c4abd9ff7a0bf6",
+      "f3d713211871c850ac774d3a"
+    ],
+    "prescription": "a9fca9bb73648320a5a0854d",
+    "createdAt": "2026-05-30T18:35:54.487990",
+    "updatedAt": "2026-05-30T18:35:54.487990",
+    "deletedAt": null
+  }
+]

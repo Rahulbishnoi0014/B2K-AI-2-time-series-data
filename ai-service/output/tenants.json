@@ -1,0 +1,34 @@
+[
+  {
+    "tenant_id": 1,
+    "hospital_name": "Chakraborty Inc Hospital",
+    "organization_name": "Chakraborty Inc",
+    "domain_name": "chakrabortyinc.example.com",
+    "fullname": "Admin",
+    "username": "admin_1",
+    "email": "admin1@example.com",
+    "mobile": "7202708675",
+    "password": "$2b$10$hashedpasswordplaceholder",
+    "type": "admin",
+    "status": "active",
+    "createdAt": "2026-06-14T09:34:54.433502",
+    "updatedAt": "2026-06-14T09:34:54.433502",
+    "deletedAt": null
+  },
+  {
+    "tenant_id": 2,
+    "hospital_name": "Narain-Uppal Hospital",
+    "organization_name": "Narain-Uppal",
+    "domain_name": "narain-uppal.example.com",
+    "fullname": "Admin",
+    "username": "admin_2",
+    "email": "admin2@example.com",
+    "mobile": "7158329100",
+    "password": "$2b$10$hashedpasswordplaceholder",
+    "type": "admin",
+    "status": "active",
+    "createdAt": "2026-06-12T07:19:54.433539",
+    "updatedAt": "2026-06-12T07:19:54.433539",
+    "deletedAt": null
+  }
+]

@@ -1,0 +1,1020 @@
+[
+  {
+    "_id": "e1ec19f79332cf7c85048623",
+    "patient_id": "26eaac0a8a2caf272d920b0f",
+    "label": [
+      {
+        "familyhistoryofdisease": "no",
+        "parent": [
+          {
+            "name": "Mother",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Kidney Disease",
+                "is_check": "yes",
+                "since": "1995",
+                "frequency": 10,
+                "per": "week"
+              }
+            ]
+          },
+          {
+            "name": "Father",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Hypertension",
+                "is_check": "yes",
+                "since": "2006",
+                "frequency": 6,
+                "per": "week"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-09-26T05:02:54.439998"
+      }
+    ],
+    "createdAt": "2025-09-26T05:02:54.439998",
+    "updatedAt": "2026-03-24T03:58:54.439995"
+  },
+  {
+    "_id": "4e6272286e595d907a3844bf",
+    "patient_id": "5df15c7e9de128c360cdb314",
+    "label": [
+      {
+        "familyhistoryofdisease": "yes",
+        "parent": [
+          {
+            "name": "Father",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Thyroid Disorder",
+                "is_check": "yes",
+                "since": "2020",
+                "frequency": 6,
+                "per": "week"
+              }
+            ]
+          },
+          {
+            "name": "Sibling",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Thyroid Disorder",
+                "is_check": "yes",
+                "since": "2006",
+                "frequency": 1,
+                "per": "week"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-07-21T07:27:54.441447"
+      }
+    ],
+    "createdAt": "2025-07-21T07:27:54.441447",
+    "updatedAt": "2026-01-08T23:30:54.441443"
+  },
+  {
+    "_id": "b6665e0c983d334bdf29ccf5",
+    "patient_id": "e4bb23756a955db1f12bbea5",
+    "label": [
+      {
+        "familyhistoryofdisease": "yes",
+        "parent": [
+          {
+            "name": "Sibling",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Hypertension",
+                "is_check": "yes",
+                "since": "1998",
+                "frequency": 1,
+                "per": "year"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-07-10T03:15:54.442711"
+      }
+    ],
+    "createdAt": "2025-07-10T03:15:54.442711",
+    "updatedAt": "2025-09-10T09:49:54.442708"
+  },
+  {
+    "_id": "9a6e876bab8db33917586aeb",
+    "patient_id": "353c860b34d0546efc5a7b3b",
+    "label": [
+      {
+        "familyhistoryofdisease": "yes",
+        "parent": [
+          {
+            "name": "Sibling",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Diabetes",
+                "is_check": "yes",
+                "since": "2018",
+                "frequency": 1,
+                "per": "week"
+              }
+            ]
+          },
+          {
+            "name": "Sibling",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Asthma",
+                "is_check": "yes",
+                "since": "2007",
+                "frequency": 8,
+                "per": "week"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-08-09T19:56:54.444888"
+      }
+    ],
+    "createdAt": "2025-08-09T19:56:54.444888",
+    "updatedAt": "2026-06-06T18:09:54.444891"
+  },
+  {
+    "_id": "45746330b30825021e74a88e",
+    "patient_id": "34393ee82103a0d6dd3c7721",
+    "label": [
+      {
+        "familyhistoryofdisease": "no",
+        "parent": [
+          {
+            "name": "Sibling",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Asthma",
+                "is_check": "yes",
+                "since": "2013",
+                "frequency": 1,
+                "per": "month"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-06-29T13:48:54.447290"
+      }
+    ],
+    "createdAt": "2025-06-29T13:48:54.447290",
+    "updatedAt": "2026-02-22T16:57:54.447293"
+  },
+  {
+    "_id": "d5ca1347c926151e0cf5f392",
+    "patient_id": "f2dc79ee02b026a4efb0010c",
+    "label": [
+      {
+        "familyhistoryofdisease": "yes",
+        "parent": [
+          {
+            "name": "Father",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Heart Disease",
+                "is_check": "yes",
+                "since": "1995",
+                "frequency": 10,
+                "per": "month"
+              }
+            ]
+          },
+          {
+            "name": "Father",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Thyroid Disorder",
+                "is_check": "yes",
+                "since": "1998",
+                "frequency": 3,
+                "per": "month"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-08-04T17:48:54.449757"
+      }
+    ],
+    "createdAt": "2025-08-04T17:48:54.449757",
+    "updatedAt": "2026-03-23T08:55:54.449766"
+  },
+  {
+    "_id": "a5baa2fc684aa1611ae7dc93",
+    "patient_id": "9d9b4a19e0477c2bddc35b6a",
+    "label": [
+      {
+        "familyhistoryofdisease": "no",
+        "parent": [
+          {
+            "name": "Father",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Stroke",
+                "is_check": "yes",
+                "since": "2009",
+                "frequency": 3,
+                "per": "year"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-12-23T00:45:54.452045"
+      }
+    ],
+    "createdAt": "2025-12-23T00:45:54.452045",
+    "updatedAt": "2025-12-23T00:45:54.452045"
+  },
+  {
+    "_id": "9bda5892095167e89cc6135b",
+    "patient_id": "77b9ecbb7160fcd6b0758745",
+    "label": [
+      {
+        "familyhistoryofdisease": "no",
+        "parent": [
+          {
+            "name": "Mother",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Heart Disease",
+                "is_check": "yes",
+                "since": "2000",
+                "frequency": 12,
+                "per": "year"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2026-02-28T12:57:54.452436"
+      }
+    ],
+    "createdAt": "2026-02-28T12:57:54.452436",
+    "updatedAt": "2026-05-19T12:44:54.452431"
+  },
+  {
+    "_id": "1f9e99769ec4547faea85d42",
+    "patient_id": "4268a1c2f5ebf31a43d9ffb8",
+    "label": [
+      {
+        "familyhistoryofdisease": "yes",
+        "parent": [
+          {
+            "name": "Mother",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Asthma",
+                "is_check": "yes",
+                "since": "2018",
+                "frequency": 7,
+                "per": "month"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-08-31T22:01:54.454181"
+      }
+    ],
+    "createdAt": "2025-08-31T22:01:54.454181",
+    "updatedAt": "2026-03-21T16:51:54.454179"
+  },
+  {
+    "_id": "a5c6fbf2645334785c95e93a",
+    "patient_id": "f82b879988efccd875f18f61",
+    "label": [
+      {
+        "familyhistoryofdisease": "yes",
+        "parent": [
+          {
+            "name": "Sibling",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Hypertension",
+                "is_check": "yes",
+                "since": "2006",
+                "frequency": 6,
+                "per": "year"
+              }
+            ]
+          },
+          {
+            "name": "Father",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Heart Disease",
+                "is_check": "yes",
+                "since": "1996",
+                "frequency": 8,
+                "per": "week"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2026-02-06T01:42:54.456166"
+      }
+    ],
+    "createdAt": "2026-02-06T01:42:54.456166",
+    "updatedAt": "2026-02-06T01:42:54.456166"
+  },
+  {
+    "_id": "c0052953819565859ea8ad0b",
+    "patient_id": "5ad7b5daba55306352b551a5",
+    "label": [
+      {
+        "familyhistoryofdisease": "yes",
+        "parent": [
+          {
+            "name": "Father",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Stroke",
+                "is_check": "yes",
+                "since": "1992",
+                "frequency": 4,
+                "per": "year"
+              }
+            ]
+          },
+          {
+            "name": "Sibling",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Thyroid Disorder",
+                "is_check": "yes",
+                "since": "2008",
+                "frequency": 11,
+                "per": "year"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-08-17T10:15:54.456618"
+      }
+    ],
+    "createdAt": "2025-08-17T10:15:54.456618",
+    "updatedAt": "2026-05-19T19:05:54.456622"
+  },
+  {
+    "_id": "de930e68aa43d40dd7354fd9",
+    "patient_id": "b79cded746bc5231fd3773ce",
+    "label": [
+      {
+        "familyhistoryofdisease": "yes",
+        "parent": [
+          {
+            "name": "Mother",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Thyroid Disorder",
+                "is_check": "yes",
+                "since": "2017",
+                "frequency": 8,
+                "per": "year"
+              }
+            ]
+          },
+          {
+            "name": "Sibling",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Heart Disease",
+                "is_check": "yes",
+                "since": "1999",
+                "frequency": 4,
+                "per": "year"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-07-28T08:36:54.457869"
+      }
+    ],
+    "createdAt": "2025-07-28T08:36:54.457869",
+    "updatedAt": "2026-02-15T10:08:54.457863"
+  },
+  {
+    "_id": "7a926099445116c844817cb9",
+    "patient_id": "a85f645e09923c10235add4e",
+    "label": [
+      {
+        "familyhistoryofdisease": "no",
+        "parent": [
+          {
+            "name": "Sibling",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Hypertension",
+                "is_check": "yes",
+                "since": "2008",
+                "frequency": 2,
+                "per": "month"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-06-24T10:27:54.459508"
+      }
+    ],
+    "createdAt": "2025-06-24T10:27:54.459508",
+    "updatedAt": "2025-09-02T13:20:54.459515"
+  },
+  {
+    "_id": "9310885a88826d9948e3d5d6",
+    "patient_id": "f7d9fc461b40b305313415fa",
+    "label": [
+      {
+        "familyhistoryofdisease": "yes",
+        "parent": [
+          {
+            "name": "Mother",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Hypertension",
+                "is_check": "yes",
+                "since": "1996",
+                "frequency": 2,
+                "per": "year"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2026-02-25T06:52:54.460374"
+      }
+    ],
+    "createdAt": "2026-02-25T06:52:54.460374",
+    "updatedAt": "2026-02-25T06:52:54.460374"
+  },
+  {
+    "_id": "b404e0baaae7d11de7e271f5",
+    "patient_id": "b2ab8c7a9e80a49f8e29e336",
+    "label": [
+      {
+        "familyhistoryofdisease": "no",
+        "parent": [
+          {
+            "name": "Mother",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Thyroid Disorder",
+                "is_check": "yes",
+                "since": "2016",
+                "frequency": 11,
+                "per": "week"
+              }
+            ]
+          },
+          {
+            "name": "Sibling",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Cancer",
+                "is_check": "yes",
+                "since": "1992",
+                "frequency": 8,
+                "per": "year"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-07-06T20:28:54.460708"
+      }
+    ],
+    "createdAt": "2025-07-06T20:28:54.460708",
+    "updatedAt": "2026-05-11T15:47:54.460715"
+  },
+  {
+    "_id": "47e846d9dff5be254617ac4b",
+    "patient_id": "974399e6e3c5056a59cc0c96",
+    "label": [
+      {
+        "familyhistoryofdisease": "yes",
+        "parent": [
+          {
+            "name": "Mother",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Diabetes",
+                "is_check": "yes",
+                "since": "1996",
+                "frequency": 3,
+                "per": "week"
+              }
+            ]
+          },
+          {
+            "name": "Mother",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Hypertension",
+                "is_check": "yes",
+                "since": "2018",
+                "frequency": 10,
+                "per": "week"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-08-12T08:46:54.462973"
+      }
+    ],
+    "createdAt": "2025-08-12T08:46:54.462973",
+    "updatedAt": "2025-11-17T11:22:54.462971"
+  },
+  {
+    "_id": "09e6cdc85a412f2a9c996e60",
+    "patient_id": "71eb2d305fc1a74b8738ce34",
+    "label": [
+      {
+        "familyhistoryofdisease": "no",
+        "parent": [
+          {
+            "name": "Sibling",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Asthma",
+                "is_check": "yes",
+                "since": "1996",
+                "frequency": 1,
+                "per": "year"
+              }
+            ]
+          },
+          {
+            "name": "Sibling",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Asthma",
+                "is_check": "yes",
+                "since": "2017",
+                "frequency": 12,
+                "per": "month"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-08-18T08:31:54.465240"
+      }
+    ],
+    "createdAt": "2025-08-18T08:31:54.465240",
+    "updatedAt": "2026-02-15T07:24:54.465237"
+  },
+  {
+    "_id": "28ce2f4c470f6bca07fd9e04",
+    "patient_id": "ba5b2ed24d4b5e13469bead2",
+    "label": [
+      {
+        "familyhistoryofdisease": "yes",
+        "parent": [
+          {
+            "name": "Mother",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Heart Disease",
+                "is_check": "yes",
+                "since": "2012",
+                "frequency": 6,
+                "per": "month"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2026-05-09T15:15:54.468114"
+      }
+    ],
+    "createdAt": "2026-05-09T15:15:54.468114",
+    "updatedAt": "2026-05-09T15:15:54.468114"
+  },
+  {
+    "_id": "ab1b46c60458d26499224c84",
+    "patient_id": "e9034f14cc409728970b3fe8",
+    "label": [
+      {
+        "familyhistoryofdisease": "yes",
+        "parent": [
+          {
+            "name": "Sibling",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Hypertension",
+                "is_check": "yes",
+                "since": "2002",
+                "frequency": 10,
+                "per": "year"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-09-15T05:59:54.468537"
+      }
+    ],
+    "createdAt": "2025-09-15T05:59:54.468537",
+    "updatedAt": "2026-05-12T07:11:54.468539"
+  },
+  {
+    "_id": "da6d16a77320edd68db0eb71",
+    "patient_id": "090b3f692a6b3a8e03ce68bf",
+    "label": [
+      {
+        "familyhistoryofdisease": "no",
+        "parent": [
+          {
+            "name": "Father",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Hypertension",
+                "is_check": "yes",
+                "since": "1999",
+                "frequency": 3,
+                "per": "month"
+              }
+            ]
+          },
+          {
+            "name": "Mother",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Hypertension",
+                "is_check": "yes",
+                "since": "1993",
+                "frequency": 7,
+                "per": "month"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-09-19T05:23:54.471179"
+      }
+    ],
+    "createdAt": "2025-09-19T05:23:54.471179",
+    "updatedAt": "2026-04-05T14:13:54.471176"
+  },
+  {
+    "_id": "5a92ad692a2d3fa2b76d2010",
+    "patient_id": "9be59809941edb7aa81ce6dd",
+    "label": [
+      {
+        "familyhistoryofdisease": "no",
+        "parent": [
+          {
+            "name": "Sibling",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Heart Disease",
+                "is_check": "yes",
+                "since": "1998",
+                "frequency": 4,
+                "per": "month"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2026-01-04T23:01:54.473394"
+      }
+    ],
+    "createdAt": "2026-01-04T23:01:54.473394",
+    "updatedAt": "2026-04-06T10:13:54.473391"
+  },
+  {
+    "_id": "c79f3ac26d60beb8aafb1934",
+    "patient_id": "077c8e2736242c20ab854c6e",
+    "label": [
+      {
+        "familyhistoryofdisease": "no",
+        "parent": [
+          {
+            "name": "Sibling",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Hypertension",
+                "is_check": "yes",
+                "since": "2001",
+                "frequency": 4,
+                "per": "year"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-06-24T21:48:54.474667"
+      }
+    ],
+    "createdAt": "2025-06-24T21:48:54.474667",
+    "updatedAt": "2026-06-04T00:25:54.474674"
+  },
+  {
+    "_id": "d1375acd7ead611fc353dad4",
+    "patient_id": "541f217772cffbc4d129c4ca",
+    "label": [
+      {
+        "familyhistoryofdisease": "yes",
+        "parent": [
+          {
+            "name": "Sibling",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Hypertension",
+                "is_check": "yes",
+                "since": "2001",
+                "frequency": 6,
+                "per": "week"
+              }
+            ]
+          },
+          {
+            "name": "Mother",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Stroke",
+                "is_check": "yes",
+                "since": "2009",
+                "frequency": 12,
+                "per": "week"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-07-08T09:56:54.476908"
+      }
+    ],
+    "createdAt": "2025-07-08T09:56:54.476908",
+    "updatedAt": "2026-03-02T23:53:54.476902"
+  },
+  {
+    "_id": "ff025ed7a5144ab072d4315d",
+    "patient_id": "361fb00dbcb7c53888f6b2d0",
+    "label": [
+      {
+        "familyhistoryofdisease": "yes",
+        "parent": [
+          {
+            "name": "Father",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Hypertension",
+                "is_check": "yes",
+                "since": "1993",
+                "frequency": 2,
+                "per": "year"
+              }
+            ]
+          },
+          {
+            "name": "Sibling",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Heart Disease",
+                "is_check": "yes",
+                "since": "2001",
+                "frequency": 5,
+                "per": "year"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-08-24T19:08:54.478674"
+      }
+    ],
+    "createdAt": "2025-08-24T19:08:54.478674",
+    "updatedAt": "2026-02-06T01:47:54.478671"
+  },
+  {
+    "_id": "756fa64feb938487d46e095d",
+    "patient_id": "5595d64be505988d71a868f9",
+    "label": [
+      {
+        "familyhistoryofdisease": "no",
+        "parent": [
+          {
+            "name": "Father",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Asthma",
+                "is_check": "yes",
+                "since": "1990",
+                "frequency": 10,
+                "per": "week"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-06-19T08:36:54.479850"
+      }
+    ],
+    "createdAt": "2025-06-19T08:36:54.479850",
+    "updatedAt": "2026-05-30T23:34:54.479848"
+  },
+  {
+    "_id": "697dfaae936ea0ff4b31aba9",
+    "patient_id": "d8aa5931ecbb86590cf7c33b",
+    "label": [
+      {
+        "familyhistoryofdisease": "no",
+        "parent": [
+          {
+            "name": "Sibling",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Heart Disease",
+                "is_check": "yes",
+                "since": "2016",
+                "frequency": 6,
+                "per": "week"
+              }
+            ]
+          },
+          {
+            "name": "Father",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Thyroid Disorder",
+                "is_check": "yes",
+                "since": "1996",
+                "frequency": 7,
+                "per": "month"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-07-03T22:02:54.481884"
+      }
+    ],
+    "createdAt": "2025-07-03T22:02:54.481884",
+    "updatedAt": "2026-01-24T16:40:54.481886"
+  },
+  {
+    "_id": "f2aaef9b032e85b708102efd",
+    "patient_id": "ab1ee1a6cee972a4efa840ed",
+    "label": [
+      {
+        "familyhistoryofdisease": "no",
+        "parent": [
+          {
+            "name": "Sibling",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Diabetes",
+                "is_check": "yes",
+                "since": "2018",
+                "frequency": 7,
+                "per": "week"
+              }
+            ]
+          },
+          {
+            "name": "Father",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Thyroid Disorder",
+                "is_check": "yes",
+                "since": "2012",
+                "frequency": 7,
+                "per": "year"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-10-21T21:46:54.484361"
+      }
+    ],
+    "createdAt": "2025-10-21T21:46:54.484361",
+    "updatedAt": "2026-05-18T22:06:54.484365"
+  },
+  {
+    "_id": "6d5670a135df29fb2d054590",
+    "patient_id": "5b4cd720d512ae1bc6677189",
+    "label": [
+      {
+        "familyhistoryofdisease": "no",
+        "parent": [
+          {
+            "name": "Mother",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Stroke",
+                "is_check": "yes",
+                "since": "2009",
+                "frequency": 4,
+                "per": "year"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-12-08T23:11:54.485352"
+      }
+    ],
+    "createdAt": "2025-12-08T23:11:54.485352",
+    "updatedAt": "2026-06-01T22:33:54.485349"
+  },
+  {
+    "_id": "a609fc1335700c513882ba5f",
+    "patient_id": "a429309e3ec4c2600ca2f1f5",
+    "label": [
+      {
+        "familyhistoryofdisease": "yes",
+        "parent": [
+          {
+            "name": "Sibling",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Diabetes",
+                "is_check": "yes",
+                "since": "2010",
+                "frequency": 2,
+                "per": "year"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-08-01T22:55:54.485981"
+      }
+    ],
+    "createdAt": "2025-08-01T22:55:54.485981",
+    "updatedAt": "2026-03-01T18:31:54.485978"
+  },
+  {
+    "_id": "1693d6defd2888903afa2c23",
+    "patient_id": "f0a06bc6fc8901f5b2be9d9e",
+    "label": [
+      {
+        "familyhistoryofdisease": "yes",
+        "parent": [
+          {
+            "name": "Father",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Cancer",
+                "is_check": "yes",
+                "since": "2017",
+                "frequency": 12,
+                "per": "month"
+              }
+            ]
+          },
+          {
+            "name": "Mother",
+            "is_check": "yes",
+            "details": [
+              {
+                "name": "Kidney Disease",
+                "is_check": "yes",
+                "since": "2007",
+                "frequency": 4,
+                "per": "week"
+              }
+            ]
+          }
+        ],
+        "createdAt": "2025-09-10T08:32:54.487992"
+      }
+    ],
+    "createdAt": "2025-09-10T08:32:54.487992",
+    "updatedAt": "2026-05-30T18:35:54.487990"
+  }
+]

@@ -1,0 +1,9 @@
+node_modules/
+__pycache__/
+*.pyc
+frontend/dist/
+ai-service/chroma_db/
+data-seed/output/
+data-seed/output_train/
+ai-service/models/
+.env

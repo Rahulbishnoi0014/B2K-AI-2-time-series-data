@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find data-seed *)",
+      "Bash(find ai-service/output -maxdepth 2)",
+      "PowerShell(winget search Ollama --accept-source-agreements 2>&1)",
+      "PowerShell(winget search --id Ollama.Ollama --accept-source-agreements 2>&1)",
+      "PowerShell(winget install --id Ollama.Ollama -e --accept-source-agreements --accept-package-agreements 2>&1)"
+    ]
+  }
+}

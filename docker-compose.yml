@@ -1,0 +1,64 @@
+# Fully-local stack — no Kaggle, no external DB.
+# Default: JSON-file storage (USE_MONGO=false) + local Ollama for the LLM.
+# To use MongoDB instead, uncomment the `mongo` service and set USE_MONGO=true
+# on both ai-service and node-backend.
+
+services:
+  # ---- Local LLM (replaces Kaggle) ----
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+    # First run: docker compose exec ollama ollama pull llama3.2:3b
+    # For GPU, add the deploy.resources reservations for nvidia (see Ollama docs).
+
+  ai-service:
+    build: ./ai-service
+    environment:
+      - USE_MONGO=false
+      - DATA_DIR=/data            # shared JSON volume
+      - OLLAMA_URL=http://ollama:11434
+      - OLLAMA_MODEL=llama3.2:3b
+      # When USE_MONGO=true:
+      # - MONGO_URI=mongodb://mongo:27017
+      # - MONGO_DB=teleconsult_dummy
+    depends_on:
+      - ollama
+    expose:
+      - "8001"                    # internal only — never exposed publicly
+    volumes:
+      - ./shared-data:/data       # the output/*.json files live here
+      - ./ai-service/chroma_db:/app/chroma_db
+
+  node-backend:
+    build: ./node-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      - USE_MONGO=false
+      - DATA_DIR=/data            # SAME folder the AI service reads
+      - AI_SERVICE_URL=http://ai-service:8001
+      - FRONTEND_DIST=/frontend/dist
+      # When USE_MONGO=true:
+      # - MONGO_URI=mongodb://mongo:27017
+      # - MONGO_DB=teleconsult_dummy
+    depends_on:
+      - ai-service
+    volumes:
+      - ./shared-data:/data
+      - ./frontend/dist:/frontend/dist   # serve the built React bundle
+
+  # ---- Uncomment to use MongoDB instead of JSON files ----
+  # mongo:
+  #   image: mongo:7
+  #   ports:
+  #     - "27017:27017"
+  #   volumes:
+  #     - mongo_data:/data/db
+
+volumes:
+  ollama_models:
+  # mongo_data:
